@@ -1,0 +1,252 @@
+[
+  {
+    "ID": "Jan01",
+    "Data": "2026-01-15",
+    "Nome": "Hidratante Labial Restock",
+    "Geografia": "MX",
+    "Tipo": "Lançamento",
+    "Status": "🟢 Live",
+    "Owner": "Luiza",
+    "Notas": ""
+  },
+  {
+    "ID": "Jan02",
+    "Data": "2026-01-20",
+    "Nome": "Body Butter Lavanda",
+    "Geografia": "CO",
+    "Tipo": "Lançamento",
+    "Status": "🟡 Em Dev",
+    "Owner": "Breno",
+    "Notas": "Aguardando aprovação de fórmula"
+  },
+  {
+    "ID": "Jan03",
+    "Data": "2026-01-28",
+    "Nome": "Campanha Verão",
+    "Geografia": "Noma",
+    "Tipo": "Campanha",
+    "Status": "⏳ Backlog",
+    "Owner": "Time",
+    "Notas": ""
+  },
+  {
+    "ID": "Fev01",
+    "Data": "2026-02-10",
+    "Nome": "Protetor Solar SPF 70",
+    "Geografia": "BR",
+    "Tipo": "Lançamento",
+    "Status": "🟡 Em Dev",
+    "Owner": "Guilherme",
+    "Notas": ""
+  },
+  {
+    "ID": "Fev02",
+    "Data": "2026-02-14",
+    "Nome": "Serum Vitamina C",
+    "Geografia": "Noma",
+    "Tipo": "Lançamento",
+    "Status": "🟢 Live",
+    "Owner": "Luiza",
+    "Notas": ""
+  },
+  {
+    "ID": "Fev03",
+    "Data": "2026-02-14",
+    "Nome": "Campanha Dia dos Namorados",
+    "Geografia": "BR",
+    "Tipo": "Campanha",
+    "Status": "🟡 Em Dev",
+    "Owner": "Time",
+    "Notas": ""
+  },
+  {
+    "ID": "Mar01",
+    "Data": "2026-03-03",
+    "Nome": "Campanha Dia das Mulheres",
+    "Geografia": "BR",
+    "Tipo": "Campanha",
+    "Status": "⏳ Backlog",
+    "Owner": "Time",
+    "Notas": ""
+  },
+  {
+    "ID": "Mar02",
+    "Data": "2026-03-08",
+    "Nome": "Launch Chile",
+    "Geografia": "CL",
+    "Tipo": "Lançamento",
+    "Status": "🔴 Crítico",
+    "Owner": "Guilherme",
+    "Notas": "Primeira operação no Chile"
+  },
+  {
+    "ID": "Mar03",
+    "Data": "2026-03-15",
+    "Nome": "Pimple Patches Estrela",
+    "Geografia": "Joomi",
+    "Tipo": "Lançamento",
+    "Status": "🟢 Live",
+    "Owner": "Luiza",
+    "Notas": ""
+  },
+  {
+    "ID": "Mar04",
+    "Data": "2026-03-20",
+    "Nome": "After Sun",
+    "Geografia": "MX",
+    "Tipo": "Lançamento",
+    "Status": "🟡 Em Dev",
+    "Owner": "Breno",
+    "Notas": ""
+  },
+  {
+    "ID": "Mar05",
+    "Data": "2026-03-25",
+    "Nome": "Body Splash Coco",
+    "Geografia": "Noma",
+    "Tipo": "Lançamento",
+    "Status": "🟡 Em Dev",
+    "Owner": "Luiza",
+    "Notas": ""
+  },
+  {
+    "ID": "Abr01",
+    "Data": "2026-04-05",
+    "Nome": "Campanha Outono",
+    "Geografia": "BR",
+    "Tipo": "Campanha",
+    "Status": "⏳ Backlog",
+    "Owner": "Time",
+    "Notas": ""
+  },
+  {
+    "ID": "Mai01",
+    "Data": "2026-05-10",
+    "Nome": "Campanha Dia das Mães BR",
+    "Geografia": "BR",
+    "Tipo": "Campanha",
+    "Status": "🔴 Crítico",
+    "Owner": "Time",
+    "Notas": "Alto volume esperado"
+  },
+  {
+    "ID": "Mai02",
+    "Data": "2026-05-10",
+    "Nome": "Campanha Día de la Madre MX",
+    "Geografia": "MX",
+    "Tipo": "Campanha",
+    "Status": "🔴 Crítico",
+    "Owner": "Time",
+    "Notas": "Alto volume esperado"
+  },
+  {
+    "ID": "Mai03",
+    "Data": "2026-05-10",
+    "Nome": "Campanha Día de la Madre CO",
+    "Geografia": "CO",
+    "Tipo": "Campanha",
+    "Status": "🔴 Crítico",
+    "Owner": "Time",
+    "Notas": "Alto volume esperado"
+  },
+  {
+    "ID": "Mai04",
+    "Data": "2026-05-15",
+    "Nome": "Hidratante Corporal Manga",
+    "Geografia": "Noma",
+    "Tipo": "Lançamento",
+    "Status": "🟡 Em Dev",
+    "Owner": "Luiza",
+    "Notas": ""
+  },
+  {
+    "ID": "Jun01",
+    "Data": "2026-06-12",
+    "Nome": "Campanha Dia dos Namorados BR",
+    "Geografia": "BR",
+    "Tipo": "Campanha",
+    "Status": "⏳ Backlog",
+    "Owner": "Time",
+    "Notas": ""
+  },
+  {
+    "ID": "Ago01",
+    "Data": "2026-08-11",
+    "Nome": "Campanha Dia dos Pais BR",
+    "Geografia": "BR",
+    "Tipo": "Campanha",
+    "Status": "⏳ Backlog",
+    "Owner": "Time",
+    "Notas": ""
+  },
+  {
+    "ID": "Set01",
+    "Data": "2026-09-01",
+    "Nome": "Protetor Solar Kids",
+    "Geografia": "BR",
+    "Tipo": "Lançamento",
+    "Status": "⏳ Backlog",
+    "Owner": "Guilherme",
+    "Notas": ""
+  },
+  {
+    "ID": "Set02",
+    "Data": "2026-09-21",
+    "Nome": "Campanha Primavera",
+    "Geografia": "BR",
+    "Tipo": "Campanha",
+    "Status": "⏳ Backlog",
+    "Owner": "Time",
+    "Notas": ""
+  },
+  {
+    "ID": "Nov01",
+    "Data": "2026-11-13",
+    "Nome": "Sunfriday BR",
+    "Geografia": "BR",
+    "Tipo": "Campanha",
+    "Status": "🔴 Crítico",
+    "Owner": "Time",
+    "Notas": "Maior campanha do ano"
+  },
+  {
+    "ID": "Nov02",
+    "Data": "2026-11-13",
+    "Nome": "Buen Fin MX",
+    "Geografia": "MX",
+    "Tipo": "Campanha",
+    "Status": "🔴 Crítico",
+    "Owner": "Time",
+    "Notas": "Maior campanha do ano"
+  },
+  {
+    "ID": "Nov03",
+    "Data": "2026-11-27",
+    "Nome": "Black Friday Noma",
+    "Geografia": "Noma",
+    "Tipo": "Campanha",
+    "Status": "🔴 Crítico",
+    "Owner": "Time",
+    "Notas": "Alto volume esperado"
+  },
+  {
+    "ID": "Nov04",
+    "Data": "2026-11-27",
+    "Nome": "Black Friday Joomi",
+    "Geografia": "Joomi",
+    "Tipo": "Campanha",
+    "Status": "🔴 Crítico",
+    "Owner": "Time",
+    "Notas": "Alto volume esperado"
+  },
+  {
+    "ID": "Nov05",
+    "Data": "2026-11-20",
+    "Nome": "Advent Calendar EU",
+    "Geografia": "EU",
+    "Tipo": "Lançamento",
+    "Status": "🟡 Em Dev",
+    "Owner": "Guilherme",
+    "Notas": "Edição limitada"
+  }
+]
