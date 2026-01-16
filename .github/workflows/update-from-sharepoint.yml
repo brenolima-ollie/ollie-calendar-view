@@ -1,0 +1,90 @@
+name: Update Calendar from SharePoint
+
+on:
+  workflow_dispatch:
+    inputs:
+      trigger_source:
+        description: 'Source of trigger'
+        required: false
+        default: 'manual'
+  repository_dispatch:
+    types: [sharepoint-update]
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install pandas openpyxl requests
+
+      - name: Download Excel from SharePoint
+        env:
+          SHAREPOINT_FILE_URL: ${{ secrets.SHAREPOINT_FILE_URL }}
+        run: |
+          # Download directly from SharePoint share link
+          curl -L "$SHAREPOINT_FILE_URL" -o lancamentos_campanhas_2026.xlsx
+
+      - name: Convert Excel to JSON
+        run: |
+          python -c "
+          import pandas as pd
+          import json
+
+          # Read Excel
+          df = pd.read_excel('lancamentos_campanhas_2026.xlsx')
+
+          # Convert dates to ISO format
+          df['Data'] = pd.to_datetime(df['Data']).dt.strftime('%Y-%m-%d')
+
+          # Convert to JSON
+          data = df.to_dict('records')
+
+          # Save JSON
+          with open('app/data.json', 'w', encoding='utf-8') as f:
+              json.dump(data, f, indent=2, ensure_ascii=False)
+
+          print(f'✓ Converted {len(data)} events to JSON')
+          "
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet app/data.json; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in data.json"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "Calendar Bot"
+          git config user.email "bot@ollie.com"
+          git add app/data.json
+          git commit -m "Auto-update: Calendar data from SharePoint [$(date +'%Y-%m-%d %H:%M')]"
+          git push
+
+      - name: Trigger Vercel deployment
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          echo "Changes pushed. Vercel will auto-deploy in ~2 minutes."
+          echo "URL: https://ollie-calendar-view.vercel.app"
+
+      - name: No changes detected
+        if: steps.check_changes.outputs.has_changes == 'false'
+        run: |
+          echo "No changes in calendar data. Skipping deployment."
