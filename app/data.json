@@ -288,5 +288,25 @@
     "Esforço": "G",
     "Status": "🟡 Em Dev",
     "Notas": "Ainda deve ser validado"
+  },
+  {
+    "ID": "20260621-001",
+    "Data": "2026-06-21",
+    "Nome": "Lancamento Glow Facial",
+    "Geografia": "Ollie CL",
+    "Tipo": "Lançamento",
+    "Esforço": "G",
+    "Status": "🟡 Em Dev",
+    "Notas": "Previsão"
+  },
+  {
+    "ID": "20260622-001",
+    "Data": "2026-06-22",
+    "Nome": "Lancamento Glow Facial",
+    "Geografia": "Ollie CL",
+    "Tipo": "Lançamento",
+    "Esforço": "G",
+    "Status": "🟡 Em Dev",
+    "Notas": "Previsão"
   }
 ]
