@@ -43,6 +43,9 @@ jobs:
           # Convert dates to ISO format
           df['Data'] = pd.to_datetime(df['Data']).dt.strftime('%Y-%m-%d')
 
+          # Replace NaN with empty string to avoid JSON errors
+          df = df.fillna('')
+
           # Convert to JSON
           data = df.to_dict('records')
 
@@ -50,7 +53,7 @@ jobs:
           with open('app/data.json', 'w', encoding='utf-8') as f:
               json.dump(data, f, indent=2, ensure_ascii=False)
 
-          print(f'✓ Converted {len(data)} events to JSON')
+          print(f'Converted {len(data)} events to JSON')
           "
 
       - name: Check for changes
