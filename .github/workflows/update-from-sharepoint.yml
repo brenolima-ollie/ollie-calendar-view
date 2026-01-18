@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -27,14 +27,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pandas openpyxl requests
-
-      - name: Download Excel from SharePoint
-        env:
-          SHAREPOINT_FILE_URL: ${{ secrets.SHAREPOINT_FILE_URL }}
-        run: |
-          # Download directly from SharePoint share link
-          curl -L "$SHAREPOINT_FILE_URL" -o lancamentos_campanhas_2026.xlsx
+          pip install pandas openpyxl
 
       - name: Convert Excel to JSON
         run: |
