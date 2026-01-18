@@ -40,8 +40,19 @@ jobs:
           # Read Excel
           df = pd.read_excel('lancamentos_campanhas_2026.xlsx')
 
-          # Convert dates to ISO format
-          df['Data'] = pd.to_datetime(df['Data']).dt.strftime('%Y-%m-%d')
+          # Remove completely empty rows
+          df = df.dropna(how='all')
+
+          # Remove rows without ID
+          df = df[df['ID'] != '']
+
+          # Convert ALL datetime columns to string BEFORE any other operation
+          for col in df.columns:
+              if pd.api.types.is_datetime64_any_dtype(df[col]):
+                  # Use astype(str) which is more robust than strftime
+                  df[col] = df[col].astype(str)
+                  # Replace 'NaT' with empty string
+                  df[col] = df[col].replace('NaT', '')
 
           # Replace NaN with empty string to avoid JSON errors
           df = df.fillna('')
