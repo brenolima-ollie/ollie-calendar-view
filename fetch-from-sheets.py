@@ -1,6 +1,6 @@
 """
 Script para baixar dados do Google Sheets e converter para JSON
-Roda no GitHub Actions a cada 15 minutos (100% automático)
+Roda no GitHub Actions a cada 5 minutos (100% automático)
 """
 
 import pandas as pd
