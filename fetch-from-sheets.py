@@ -9,11 +9,25 @@ from datetime import datetime, date
 import sys
 import os
 
-# Pegar SHEET_ID do environment ou usar placeholder
-SHEET_ID = os.environ.get('SHEETS_URL', '{SHEET_ID}')
+# Pegar URL completo do environment
+SHEETS_URL = os.environ.get('SHEETS_URL', '')
+
+# Extrair SHEET_ID e GID da URL se for URL completo
+if 'docs.google.com' in SHEETS_URL:
+    # É uma URL completa
+    import re
+    sheet_match = re.search(r'/d/([a-zA-Z0-9-_]+)', SHEETS_URL)
+    gid_match = re.search(r'gid=([0-9]+)', SHEETS_URL)
+
+    SHEET_ID = sheet_match.group(1) if sheet_match else ''
+    GID = gid_match.group(1) if gid_match else '0'
+else:
+    # É só o ID
+    SHEET_ID = SHEETS_URL
+    GID = '0'
 
 # URL pública do Google Sheets (modo CSV)
-SHEET_URL = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=0'
+SHEET_URL = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={GID}'
 
 try:
     print(f'Sheet ID: {SHEET_ID}')
