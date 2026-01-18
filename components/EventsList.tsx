@@ -119,6 +119,19 @@ export function EventsList({ events }: EventsListProps) {
                           })}
                         </span>
                       </div>
+                      {event.Esforço && (
+                        <div className="flex items-center gap-2">
+                          <span className="font-medium">Relevância:</span>
+                          <span className="flex items-center gap-1">
+                            {event.Esforço}{" "}
+                            <span className="text-gray-400">
+                              {event.Esforço === "P" && "●"}
+                              {event.Esforço === "M" && "●●"}
+                              {event.Esforço === "G" && "●●●"}
+                            </span>
+                          </span>
+                        </div>
+                      )}
                       {event.Notas && (
                         <div className="mt-2 p-2 bg-white rounded text-xs">
                           {event.Notas}

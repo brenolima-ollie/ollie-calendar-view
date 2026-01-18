@@ -182,6 +182,13 @@ export function CalendarGrid({ events, selectedMonth, onMonthChange }: CalendarG
                           <span className="truncate font-medium">
                             {event.Geografia}
                           </span>
+                          {event.Esforço && (
+                            <span className="text-gray-400 text-[10px] ml-auto flex-shrink-0">
+                              {event.Esforço === "P" && "●"}
+                              {event.Esforço === "M" && "●●"}
+                              {event.Esforço === "G" && "●●●"}
+                            </span>
+                          )}
                         </div>
                       </div>
                     ))}
