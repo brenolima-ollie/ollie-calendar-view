@@ -1,0 +1,61 @@
+name: Update Calendar from Google Sheets
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # A cada 15 minutos
+  workflow_dispatch:
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install pandas
+
+      - name: Fetch from Google Sheets
+        env:
+          SHEETS_URL: ${{ secrets.GOOGLE_SHEETS_URL }}
+        run: |
+          if [ -n "$SHEETS_URL" ]; then
+            echo "Usando Google Sheets URL configurado"
+            sed -i "s|{SHEET_ID}|$SHEETS_URL|g" fetch-from-sheets.py
+          fi
+          python fetch-from-sheets.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet app/data.json; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "Sem mudanças"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Mudanças detectadas"
+          fi
+
+      - name: Commit and push
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "Calendar Bot"
+          git config user.email "bot@ollie.com"
+          git add app/data.json
+          git commit -m "Auto-update: Calendar from Sheets [$(date +'%Y-%m-%d %H:%M')]"
+          git push
+
+      - name: Deploy info
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          echo "Mudanças publicadas! Vercel vai fazer deploy em ~2 minutos"
+          echo "URL: https://ollie-calendar-view.vercel.app"
