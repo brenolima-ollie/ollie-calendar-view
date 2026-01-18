@@ -34,3 +34,4 @@ next-env.d.ts
 
 # Sync scripts
 sync-pid.txt
+sync-log.txt

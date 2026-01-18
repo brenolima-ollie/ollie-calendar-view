@@ -2,22 +2,30 @@
 # Monitora mudanças no arquivo Excel e faz commit/push automaticamente
 
 # Configurações
-$excelPath = "c:\Users\breno.lima\OneDrive - Ollie\growth_lifecycle\site_calendar\calendar-view-app\lancamentos_campanhas_2026.xlsx"
-$repoPath = "c:\Users\breno.lima\OneDrive - Ollie\growth_lifecycle\site_calendar\calendar-view-app"
+$excelPath = 'c:\Users\breno.lima\OneDrive - Ollie\growth_lifecycle\site_calendar\calendar-view-app\lancamentos_campanhas_2026.xlsx'
+$repoPath = 'c:\Users\breno.lima\OneDrive - Ollie\growth_lifecycle\site_calendar\calendar-view-app'
 $checkInterval = 60  # Verificar a cada 60 segundos
+$logFile = Join-Path $repoPath 'sync-log.txt'
 
-Write-Host "==================================================================" -ForegroundColor Cyan
-Write-Host "  SINCRONIZADOR AUTOMÁTICO - Calendar View Excel → GitHub" -ForegroundColor Cyan
-Write-Host "==================================================================" -ForegroundColor Cyan
-Write-Host ""
-Write-Host "Monitorando: $excelPath" -ForegroundColor Yellow
-Write-Host "Intervalo de verificação: $checkInterval segundos" -ForegroundColor Yellow
-Write-Host ""
-Write-Host "Pressione Ctrl+C para parar o monitoramento" -ForegroundColor Gray
-Write-Host ""
+# Função para escrever log
+function Write-Log {
+    param($Message)
+    $timestamp = Get-Date -Format 'yyyy-MM-dd HH:mm:ss'
+    $logMessage = "[$timestamp] $Message"
+    Add-Content -Path $logFile -Value $logMessage
+    Write-Host $logMessage
+}
+
+Write-Log '=========================================='
+Write-Log 'SINCRONIZADOR AUTOMÁTICO INICIADO'
+Write-Log '=========================================='
+Write-Log "Monitorando: $excelPath"
+Write-Log "Intervalo: $checkInterval segundos"
+Write-Log "Repositório: $repoPath"
+Write-Log ''
 
 # Guardar o último hash do arquivo
-$lastHash = ""
+$lastHash = ''
 
 function Get-FileHashSafe {
     param($Path)
@@ -27,52 +35,65 @@ function Get-FileHashSafe {
             return $hash
         }
     } catch {
+        Write-Log "ERRO ao calcular hash: $_"
         return $null
     }
     return $null
 }
 
 function Sync-ExcelToGitHub {
-    Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Mudanças detectadas! Sincronizando..." -ForegroundColor Green
+    Write-Log 'Mudanças detectadas! Sincronizando...'
 
     try {
         # Ir para o diretório do repositório
         Set-Location $repoPath
+        Write-Log "  Diretório: $(Get-Location)"
 
         # Verificar se há mudanças no git
-        $gitStatus = git status --porcelain lancamentos_campanhas_2026.xlsx
+        $gitStatus = git status --porcelain lancamentos_campanhas_2026.xlsx 2>&1
+        Write-Log "  Git status: $gitStatus"
 
-        if ($gitStatus) {
-            Write-Host "  → Adicionando arquivo ao git..." -ForegroundColor Gray
-            git add lancamentos_campanhas_2026.xlsx
+        if ($gitStatus -and $gitStatus -match '^.M') {
+            Write-Log '  Adicionando arquivo ao git...'
+            $addResult = git add lancamentos_campanhas_2026.xlsx 2>&1
+            Write-Log "  Add result: $addResult"
 
-            Write-Host "  → Fazendo commit..." -ForegroundColor Gray
-            $commitMsg = "Auto-update: Excel calendar data [$(Get-Date -Format 'yyyy-MM-dd HH:mm')]`n`nCo-Authored-By: Calendar Sync Bot <bot@ollie.com>"
-            git commit -m $commitMsg
+            Write-Log '  Fazendo commit...'
+            $timestamp = Get-Date -Format 'yyyy-MM-dd HH:mm'
+            $commitMsg = "Auto-update: Excel calendar data [$timestamp]
 
-            Write-Host "  → Enviando para GitHub..." -ForegroundColor Gray
-            git push
+Co-Authored-By: Calendar Sync Bot <bot@ollie.com>"
 
-            Write-Host "  ✓ Sincronização concluída!" -ForegroundColor Green
-            Write-Host "  ✓ GitHub Actions vai converter para JSON em ~15 minutos" -ForegroundColor Green
-            Write-Host "  ✓ Deploy no Vercel em ~18-20 minutos total" -ForegroundColor Green
+            $commitResult = git commit -m $commitMsg 2>&1
+            Write-Log "  Commit result: $commitResult"
+
+            Write-Log '  Enviando para GitHub...'
+            $pushResult = git push 2>&1
+            Write-Log "  Push result: $pushResult"
+
+            Write-Log 'Sincronização concluída!'
+            Write-Log 'GitHub Actions vai converter para JSON em ~15 minutos'
+            Write-Log ''
+
         } else {
-            Write-Host "  → Arquivo já está atualizado no GitHub" -ForegroundColor Yellow
+            Write-Log '  Arquivo já está atualizado no GitHub'
+            Write-Log ''
         }
 
-        Write-Host ""
-
     } catch {
-        Write-Host "  ✗ Erro durante sincronização: $_" -ForegroundColor Red
-        Write-Host ""
+        Write-Log "ERRO durante sincronização: $_"
+        Write-Log ''
     }
 }
 
 # Loop principal
+Write-Log 'Iniciando monitoramento...'
+Write-Log ''
+
 while ($true) {
     # Verificar se o arquivo existe
     if (-not (Test-Path $excelPath)) {
-        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] ⚠ Arquivo não encontrado. Aguardando..." -ForegroundColor Yellow
+        Write-Log 'Arquivo não encontrado. Aguardando...'
         Start-Sleep -Seconds $checkInterval
         continue
     }
@@ -87,9 +108,9 @@ while ($true) {
     }
 
     # Se é a primeira verificação, apenas guardar o hash
-    if ($lastHash -eq "") {
+    if ($lastHash -eq '') {
         $lastHash = $currentHash
-        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] Monitoramento iniciado. Hash inicial: $($currentHash.Substring(0,8))..." -ForegroundColor Cyan
+        Write-Log "Hash inicial: $($currentHash.Substring(0,8))..."
     }
     # Se o hash mudou, sincronizar
     elseif ($currentHash -ne $lastHash) {
