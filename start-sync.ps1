@@ -1,6 +1,4 @@
-"""
-Inicia o sincronizador automático em background (janela oculta)
-"""
+# Inicia o sincronizador automático em background (janela oculta)
 
 $scriptPath = Join-Path $PSScriptRoot "sync-excel-auto.ps1"
 

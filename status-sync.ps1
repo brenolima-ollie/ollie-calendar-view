@@ -1,6 +1,4 @@
-"""
-Verifica o status do sincronizador automático
-"""
+# Verifica o status do sincronizador automático
 
 $pidFile = Join-Path $PSScriptRoot "sync-pid.txt"
 

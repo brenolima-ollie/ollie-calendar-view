@@ -1,7 +1,5 @@
-"""
-Script PowerShell para sincronizar automaticamente o Excel com o GitHub
-Monitora mudanças no arquivo Excel e faz commit/push automaticamente
-"""
+# Script PowerShell para sincronizar automaticamente o Excel com o GitHub
+# Monitora mudanças no arquivo Excel e faz commit/push automaticamente
 
 # Configurações
 $excelPath = "c:\Users\breno.lima\OneDrive - Ollie\growth_lifecycle\site_calendar\calendar-view-app\lancamentos_campanhas_2026.xlsx"
