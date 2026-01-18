@@ -28,10 +28,6 @@ jobs:
         env:
           SHEETS_URL: ${{ secrets.GOOGLE_SHEETS_URL }}
         run: |
-          if [ -n "$SHEETS_URL" ]; then
-            echo "Usando Google Sheets URL configurado"
-            sed -i "s|{SHEET_ID}|$SHEETS_URL|g" fetch-from-sheets.py
-          fi
           python fetch-from-sheets.py
 
       - name: Check for changes

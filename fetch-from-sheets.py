@@ -7,12 +7,17 @@ import pandas as pd
 import json
 from datetime import datetime, date
 import sys
+import os
+
+# Pegar SHEET_ID do environment ou usar placeholder
+SHEET_ID = os.environ.get('SHEETS_URL', '{SHEET_ID}')
 
 # URL pública do Google Sheets (modo CSV)
-# Substitua SHEET_ID pelo ID da sua planilha
-SHEET_URL = 'https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=0'
+SHEET_URL = f'https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=0'
 
 try:
+    print(f'Sheet ID: {SHEET_ID}')
+    print(f'URL: {SHEET_URL}')
     print('Baixando dados do Google Sheets...')
 
     # Ler CSV do Google Sheets
