@@ -1,6 +1,6 @@
 [
   {
-    "ID": "20260115-001",
+    "ID": "Jan01",
     "Data": "2026-01-15",
     "Nome": "Hidratante Labial Restock",
     "Geografia": "MX",
@@ -10,7 +10,7 @@
     "Notas": "Reposição de estoque"
   },
   {
-    "ID": "20260120-001",
+    "ID": "Jan02",
     "Data": "2026-01-20",
     "Nome": "LP Make Descomplicada",
     "Geografia": "CO",
@@ -20,7 +20,7 @@
     "Notas": "Guilherme de férias - Luiza assume"
   },
   {
-    "ID": "20260122-001",
+    "ID": "Jan03",
     "Data": "2026-01-22",
     "Nome": "Body Splash Tropical",
     "Geografia": "Noma",
@@ -30,7 +30,7 @@
     "Notas": "Aguardando aprovação final"
   },
   {
-    "ID": "20260210-001",
+    "ID": "Fev01",
     "Data": "2026-02-10",
     "Nome": "Kit Dia dos Namorados",
     "Geografia": "BR",
@@ -40,7 +40,7 @@
     "Notas": "Bundle especial"
   },
   {
-    "ID": "20260214-001",
+    "ID": "Fev02",
     "Data": "2026-02-14",
     "Nome": "Serum Vitamina C",
     "Geografia": "Noma",
@@ -50,7 +50,7 @@
     "Notas": ""
   },
   {
-    "ID": "20260217-001",
+    "ID": "Fev03",
     "Data": "2026-02-17",
     "Nome": "Protector en Barra Kids",
     "Geografia": "CO",
@@ -60,7 +60,7 @@
     "Notas": ""
   },
   {
-    "ID": "20260303-001",
+    "ID": "Mar01",
     "Data": "2026-03-03",
     "Nome": "Campanha Dia das Mulheres",
     "Geografia": "BR",
@@ -70,7 +70,7 @@
     "Notas": "Principal BR"
   },
   {
-    "ID": "20260305-001",
+    "ID": "Mar02",
     "Data": "2026-03-05",
     "Nome": "Protector 3 em 1 Edição Limitada",
     "Geografia": "MX",
@@ -80,7 +80,7 @@
     "Notas": ""
   },
   {
-    "ID": "20260308-001",
+    "ID": "Mar03",
     "Data": "2026-03-08",
     "Nome": "Dia de la Mujer Promo",
     "Geografia": "CO",
@@ -90,7 +90,7 @@
     "Notas": ""
   },
   {
-    "ID": "20260315-001",
+    "ID": "Mar04",
     "Data": "2026-03-15",
     "Nome": "Launch Chile",
     "Geografia": "CL",
@@ -100,7 +100,7 @@
     "Notas": "Milestone crítico - toda operação"
   },
   {
-    "ID": "20260320-001",
+    "ID": "Mar05",
     "Data": "2026-03-20",
     "Nome": "Pimple Patches Novos Formatos",
     "Geografia": "Joomi",
@@ -110,7 +110,7 @@
     "Notas": "Estrelas + corações"
   },
   {
-    "ID": "20260410-001",
+    "ID": "Abr01",
     "Data": "2026-04-10",
     "Nome": "Protetor Facial FPS 70",
     "Geografia": "BR",
@@ -120,7 +120,7 @@
     "Notas": ""
   },
   {
-    "ID": "20260415-001",
+    "ID": "Abr02",
     "Data": "2026-04-15",
     "Nome": "Kit Outono",
     "Geografia": "EU",
@@ -130,7 +130,7 @@
     "Notas": "Teste mercado EU"
   },
   {
-    "ID": "20260505-001",
+    "ID": "Mai01",
     "Data": "2026-05-05",
     "Nome": "Campanha Dia das Mães BR",
     "Geografia": "BR",
@@ -140,7 +140,7 @@
     "Notas": "Principal campanha Q2"
   },
   {
-    "ID": "20260508-001",
+    "ID": "Mai02",
     "Data": "2026-05-08",
     "Nome": "Día de las Madres",
     "Geografia": "MX",
@@ -150,7 +150,7 @@
     "Notas": ""
   },
   {
-    "ID": "20260510-001",
+    "ID": "Mai03",
     "Data": "2026-05-10",
     "Nome": "Hot Sale México",
     "Geografia": "MX",
@@ -160,7 +160,7 @@
     "Notas": "Período crítico MX"
   },
   {
-    "ID": "20260512-001",
+    "ID": "Mai04",
     "Data": "2026-05-12",
     "Nome": "Día de las Madres",
     "Geografia": "CO",
@@ -170,7 +170,7 @@
     "Notas": ""
   },
   {
-    "ID": "20261101-001",
+    "ID": "Nov01",
     "Data": "2026-11-01",
     "Nome": "Sunfriday Brasil",
     "Geografia": "BR",
@@ -180,7 +180,7 @@
     "Notas": "Principal campanha BR do ano"
   },
   {
-    "ID": "20261115-001",
+    "ID": "Nov02",
     "Data": "2026-11-15",
     "Nome": "Buen Fin",
     "Geografia": "MX",
@@ -190,7 +190,7 @@
     "Notas": "Principal campanha MX"
   },
   {
-    "ID": "20261117-001",
+    "ID": "Nov03",
     "Data": "2026-11-17",
     "Nome": "Buen Fin",
     "Geografia": "CO",
@@ -200,7 +200,7 @@
     "Notas": "Principal campanha CO"
   },
   {
-    "ID": "20261125-001",
+    "ID": "Nov04",
     "Data": "2026-11-25",
     "Nome": "Black Friday",
     "Geografia": "EU",
@@ -210,7 +210,7 @@
     "Notas": ""
   },
   {
-    "ID": "20261127-001",
+    "ID": "Nov05",
     "Data": "2026-11-27",
     "Nome": "Black Friday",
     "Geografia": "Noma",
@@ -220,7 +220,7 @@
     "Notas": ""
   },
   {
-    "ID": "20261127-002",
+    "ID": "Nov06",
     "Data": "2026-11-27",
     "Nome": "Black Friday",
     "Geografia": "Joomi",
@@ -230,7 +230,7 @@
     "Notas": ""
   },
   {
-    "ID": "20260216-001",
+    "ID": "Fev03",
     "Data": "2026-02-16",
     "Nome": "Lancamento Protetor Mineral",
     "Geografia": "Ollie",
@@ -238,45 +238,5 @@
     "Status": "🟡 Em Dev",
     "Owner": "Luiza",
     "Notas": ""
-  },
-  {
-    "ID": "20260217-002",
-    "Data": "2026-02-17",
-    "Nome": "Lancamento Glow Facial",
-    "Geografia": "Noma",
-    "Tipo": "Campanha",
-    "Status": "🟡 Em Dev",
-    "Owner": "Breno",
-    "Notas": ""
-  },
-  {
-    "ID": "20260218-001",
-    "Data": "2026-02-18",
-    "Nome": "Lancamento Glow Facial",
-    "Geografia": "Noma",
-    "Tipo": "Campanha",
-    "Status": "🟡 Em Dev",
-    "Owner": "Breno",
-    "Notas": ""
-  },
-  {
-    "ID": "20260219-001",
-    "Data": "2026-02-19",
-    "Nome": "Lancamento Glow Facial",
-    "Geografia": "Noma",
-    "Tipo": "Campanha",
-    "Status": "🟡 Em Dev",
-    "Owner": "Breno",
-    "Notas": "Teste git hub"
-  },
-  {
-    "ID": "20260219-002",
-    "Data": "2026-02-19",
-    "Nome": "Lancamento Glow Facial",
-    "Geografia": "MX",
-    "Tipo": "Campanha",
-    "Status": "🟡 Em Dev",
-    "Owner": "Breno",
-    "Notas": "Teste git hub"
   }
 ]
