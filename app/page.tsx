@@ -14,8 +14,8 @@ export interface CalendarEvent {
   Nome: string;
   Geografia: string;
   Tipo: string;
+  Esforço: string;
   Status: string;
-  Owner: string;
   Notas: string;
 }
 

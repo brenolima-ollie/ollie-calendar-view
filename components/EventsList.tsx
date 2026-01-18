@@ -1,6 +1,6 @@
 "use client";
 
-import { Rocket, PartyPopper, User } from "lucide-react";
+import { Rocket, PartyPopper } from "lucide-react";
 import type { CalendarEvent } from "@/app/page";
 
 interface EventsListProps {
@@ -8,6 +8,15 @@ interface EventsListProps {
 }
 
 const COLORS: Record<string, string> = {
+  "Ollie BR": "#E7002A",
+  "Ollie MX": "#FF502C",
+  "Ollie CO": "#C9A0DC",
+  "Ollie EU": "#87CEEB",
+  "Ollie CL": "#FFD700",
+  "Noma BR": "#F5E6D3",
+  "Joomi BR": "#FFB6C1",
+  "Ollie CB": "#808080",
+  // Backward compatibility (old format)
   BR: "#E7002A",
   MX: "#FF502C",
   CO: "#C9A0DC",
@@ -108,10 +117,6 @@ export function EventsList({ events }: EventsListProps) {
                             year: "numeric",
                           })}
                         </span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <User className="w-4 h-4" />
-                        <span className="font-medium">{event.Owner}</span>
                       </div>
                       {event.Notas && (
                         <div className="mt-2 p-2 bg-white rounded text-xs">

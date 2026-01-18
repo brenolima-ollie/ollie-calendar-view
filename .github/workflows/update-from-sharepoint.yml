@@ -36,6 +36,7 @@ jobs:
           python -c "
           import pandas as pd
           import json
+          from datetime import datetime, date
 
           # Read Excel
           df = pd.read_excel('lancamentos_campanhas_2026.xlsx')
@@ -43,22 +44,35 @@ jobs:
           # Remove completely empty rows
           df = df.dropna(how='all')
 
-          # Remove rows without ID
-          df = df[df['ID'] != '']
+          # Remove rows without Data (minimum requirement)
+          df = df[df['Data'].notna()]
 
           # Convert ALL datetime columns to string BEFORE any other operation
           for col in df.columns:
               if pd.api.types.is_datetime64_any_dtype(df[col]):
-                  # Use astype(str) which is more robust than strftime
                   df[col] = df[col].astype(str)
-                  # Replace 'NaT' with empty string
                   df[col] = df[col].replace('NaT', '')
 
           # Replace NaN with empty string to avoid JSON errors
           df = df.fillna('')
 
+          # Auto-generate IDs based on date + index
+          # Format: YYYYMMDD-001, YYYYMMDD-002, etc.
+          df['ID'] = df.groupby('Data').cumcount().add(1).astype(str).str.zfill(3)
+          df['ID'] = df['Data'].str.replace('-', '') + '-' + df['ID']
+
+          # Reorder columns to put ID first
+          cols = ['ID'] + [col for col in df.columns if col != 'ID']
+          df = df[cols]
+
           # Convert to JSON
           data = df.to_dict('records')
+
+          # Check for any remaining datetime objects
+          for i, record in enumerate(data):
+              for key, value in record.items():
+                  if isinstance(value, (datetime, date)):
+                      data[i][key] = str(value)
 
           # Save JSON
           with open('app/data.json', 'w', encoding='utf-8') as f:

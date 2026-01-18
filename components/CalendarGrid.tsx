@@ -18,6 +18,15 @@ const MONTHS = [
 const WEEKDAYS = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
 
 const COLORS: Record<string, string> = {
+  "Ollie BR": "#E7002A",
+  "Ollie MX": "#FF502C",
+  "Ollie CO": "#C9A0DC",
+  "Ollie EU": "#87CEEB",
+  "Ollie CL": "#FFD700",
+  "Noma BR": "#F5E6D3",
+  "Joomi BR": "#FFB6C1",
+  "Ollie CB": "#808080",
+  // Backward compatibility (old format)
   BR: "#E7002A",
   MX: "#FF502C",
   CO: "#C9A0DC",

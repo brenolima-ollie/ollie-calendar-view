@@ -1,14 +1,14 @@
 "use client";
 
 const COLORS = [
-  { name: "Ollie Brasil", color: "#E7002A", code: "BR" },
-  { name: "Ollie México", color: "#FF502C", code: "MX" },
-  { name: "Ollie Colômbia", color: "#C9A0DC", code: "CO" },
-  { name: "Ollie Europa", color: "#87CEEB", code: "EU" },
-  { name: "Ollie Chile", color: "#FFD700", code: "CL" },
-  { name: "Noma Beauty", color: "#F5E6D3", code: "Noma" },
-  { name: "Joomi Beauty", color: "#FFB6C1", code: "Joomi" },
-  { name: "Global", color: "#808080", code: "Global" },
+  { name: "Ollie Brasil", color: "#E7002A", code: "Ollie BR" },
+  { name: "Ollie México", color: "#FF502C", code: "Ollie MX" },
+  { name: "Ollie Colômbia", color: "#C9A0DC", code: "Ollie CO" },
+  { name: "Ollie Europa", color: "#87CEEB", code: "Ollie EU" },
+  { name: "Ollie Chile", color: "#FFD700", code: "Ollie CL" },
+  { name: "Noma Beauty Brasil", color: "#F5E6D3", code: "Noma BR" },
+  { name: "Joomi Beauty Brasil", color: "#FFB6C1", code: "Joomi BR" },
+  { name: "Ollie Cross-Border", color: "#808080", code: "Ollie CB" },
 ];
 
 export function Legend() {
