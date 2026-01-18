@@ -1,7 +1,7 @@
 [
   {
-    "ID": "20260115-001",
-    "Data": "2026-01-15",
+    "ID": "20260115 00:00:00-001",
+    "Data": "2026-01-15 00:00:00",
     "Nome": "Hidratante Labial Restock",
     "Geografia": "Ollie BR",
     "Tipo": "Lançamento",
@@ -10,8 +10,8 @@
     "Notas": "Reposição de estoque"
   },
   {
-    "ID": "20260120-001",
-    "Data": "2026-01-20",
+    "ID": "20260120 00:00:00-001",
+    "Data": "2026-01-20 00:00:00",
     "Nome": "LP Make Descomplicada",
     "Geografia": "Ollie CO",
     "Tipo": "Campanha",
@@ -20,8 +20,8 @@
     "Notas": "Guilherme de férias - Luiza assume"
   },
   {
-    "ID": "20260122-001",
-    "Data": "2026-01-22",
+    "ID": "20260122 00:00:00-001",
+    "Data": "2026-01-22 00:00:00",
     "Nome": "Body Splash Tropical",
     "Geografia": "Noma BR",
     "Tipo": "Lançamento",
@@ -30,8 +30,8 @@
     "Notas": "Aguardando aprovação final"
   },
   {
-    "ID": "20260210-001",
-    "Data": "2026-02-10",
+    "ID": "20260210 00:00:00-001",
+    "Data": "2026-02-10 00:00:00",
     "Nome": "Kit Dia dos Namorados",
     "Geografia": "Ollie BR",
     "Tipo": "Campanha",
@@ -40,8 +40,8 @@
     "Notas": "Bundle especial"
   },
   {
-    "ID": "20260214-001",
-    "Data": "2026-02-14",
+    "ID": "20260214 00:00:00-001",
+    "Data": "2026-02-14 00:00:00",
     "Nome": "Serum Vitamina C",
     "Geografia": "Noma BR",
     "Tipo": "Lançamento",
@@ -50,8 +50,8 @@
     "Notas": ""
   },
   {
-    "ID": "20260217-001",
-    "Data": "2026-02-17",
+    "ID": "20260217 00:00:00-001",
+    "Data": "2026-02-17 00:00:00",
     "Nome": "Protector en Barra Kids",
     "Geografia": "Ollie CO",
     "Tipo": "Lançamento",
@@ -60,8 +60,8 @@
     "Notas": ""
   },
   {
-    "ID": "20260303-001",
-    "Data": "2026-03-03",
+    "ID": "20260303 00:00:00-001",
+    "Data": "2026-03-03 00:00:00",
     "Nome": "Campanha Dia das Mulheres",
     "Geografia": "Ollie BR",
     "Tipo": "Campanha",
@@ -70,8 +70,8 @@
     "Notas": "Principal BR"
   },
   {
-    "ID": "20260305-001",
-    "Data": "2026-03-05",
+    "ID": "20260305 00:00:00-001",
+    "Data": "2026-03-05 00:00:00",
     "Nome": "Protector 3 em 1 Edição Limitada",
     "Geografia": "Ollie MX",
     "Tipo": "Lançamento",
@@ -80,8 +80,8 @@
     "Notas": ""
   },
   {
-    "ID": "20260308-001",
-    "Data": "2026-03-08",
+    "ID": "20260308 00:00:00-001",
+    "Data": "2026-03-08 00:00:00",
     "Nome": "Dia de la Mujer Promo",
     "Geografia": "Ollie CO",
     "Tipo": "Campanha",
@@ -90,8 +90,8 @@
     "Notas": ""
   },
   {
-    "ID": "20260315-001",
-    "Data": "2026-03-15",
+    "ID": "20260315 00:00:00-001",
+    "Data": "2026-03-15 00:00:00",
     "Nome": "Launch Chile",
     "Geografia": "Ollie CL",
     "Tipo": "Nova Operação",
@@ -100,8 +100,8 @@
     "Notas": "Milestone crítico - toda operação"
   },
   {
-    "ID": "20260320-001",
-    "Data": "2026-03-20",
+    "ID": "20260320 00:00:00-001",
+    "Data": "2026-03-20 00:00:00",
     "Nome": "Pimple Patches Novos Formatos",
     "Geografia": "Joomi BR",
     "Tipo": "Lançamento",
@@ -110,8 +110,8 @@
     "Notas": "Estrelas + corações"
   },
   {
-    "ID": "20260410-001",
-    "Data": "2026-04-10",
+    "ID": "20260410 00:00:00-001",
+    "Data": "2026-04-10 00:00:00",
     "Nome": "Protetor Facial FPS 70",
     "Geografia": "Ollie BR",
     "Tipo": "Lançamento",
@@ -120,8 +120,8 @@
     "Notas": ""
   },
   {
-    "ID": "20260415-001",
-    "Data": "2026-04-15",
+    "ID": "20260415 00:00:00-001",
+    "Data": "2026-04-15 00:00:00",
     "Nome": "Kit Outono",
     "Geografia": "Ollie EU",
     "Tipo": "Campanha",
@@ -130,8 +130,8 @@
     "Notas": "Teste mercado EU"
   },
   {
-    "ID": "20260505-001",
-    "Data": "2026-05-05",
+    "ID": "20260505 00:00:00-001",
+    "Data": "2026-05-05 00:00:00",
     "Nome": "Campanha Dia das Mães BR",
     "Geografia": "Ollie BR",
     "Tipo": "Campanha",
@@ -140,8 +140,8 @@
     "Notas": "Principal campanha Q2"
   },
   {
-    "ID": "20260508-001",
-    "Data": "2026-05-08",
+    "ID": "20260508 00:00:00-001",
+    "Data": "2026-05-08 00:00:00",
     "Nome": "Día de las Madres",
     "Geografia": "Ollie MX",
     "Tipo": "Campanha",
@@ -150,8 +150,8 @@
     "Notas": ""
   },
   {
-    "ID": "20260510-001",
-    "Data": "2026-05-10",
+    "ID": "20260510 00:00:00-001",
+    "Data": "2026-05-10 00:00:00",
     "Nome": "Hot Sale México",
     "Geografia": "Ollie MX",
     "Tipo": "Campanha",
@@ -160,8 +160,8 @@
     "Notas": "Período crítico MX"
   },
   {
-    "ID": "20260512-001",
-    "Data": "2026-05-12",
+    "ID": "20260512 00:00:00-001",
+    "Data": "2026-05-12 00:00:00",
     "Nome": "Día de las Madres",
     "Geografia": "Ollie CO",
     "Tipo": "Campanha",
@@ -170,8 +170,8 @@
     "Notas": ""
   },
   {
-    "ID": "20261101-001",
-    "Data": "2026-11-01",
+    "ID": "20261101 00:00:00-001",
+    "Data": "2026-11-01 00:00:00",
     "Nome": "Sunfriday Brasil",
     "Geografia": "Ollie BR",
     "Tipo": "Campanha",
@@ -180,8 +180,8 @@
     "Notas": "Principal campanha BR do ano"
   },
   {
-    "ID": "20261115-001",
-    "Data": "2026-11-15",
+    "ID": "20261115 00:00:00-001",
+    "Data": "2026-11-15 00:00:00",
     "Nome": "Buen Fin",
     "Geografia": "Ollie MX",
     "Tipo": "Campanha",
@@ -190,8 +190,8 @@
     "Notas": "Principal campanha MX"
   },
   {
-    "ID": "20261117-001",
-    "Data": "2026-11-17",
+    "ID": "20261117 00:00:00-001",
+    "Data": "2026-11-17 00:00:00",
     "Nome": "Buen Fin",
     "Geografia": "Ollie CO",
     "Tipo": "Campanha",
@@ -200,8 +200,8 @@
     "Notas": "Principal campanha CO"
   },
   {
-    "ID": "20261125-001",
-    "Data": "2026-11-25",
+    "ID": "20261125 00:00:00-001",
+    "Data": "2026-11-25 00:00:00",
     "Nome": "Black Friday",
     "Geografia": "Ollie EU",
     "Tipo": "Campanha",
@@ -210,8 +210,8 @@
     "Notas": ""
   },
   {
-    "ID": "20261127-001",
-    "Data": "2026-11-27",
+    "ID": "20261127 00:00:00-001",
+    "Data": "2026-11-27 00:00:00",
     "Nome": "Black Friday",
     "Geografia": "Noma BR",
     "Tipo": "Campanha",
@@ -220,8 +220,8 @@
     "Notas": ""
   },
   {
-    "ID": "20261127-002",
-    "Data": "2026-11-27",
+    "ID": "20261127 00:00:00-002",
+    "Data": "2026-11-27 00:00:00",
     "Nome": "Black Friday",
     "Geografia": "Joomi BR",
     "Tipo": "Campanha",
@@ -230,8 +230,8 @@
     "Notas": ""
   },
   {
-    "ID": "20260216-001",
-    "Data": "2026-02-16",
+    "ID": "20260216 00:00:00-001",
+    "Data": "2026-02-16 00:00:00",
     "Nome": "Lancamento Protetor Mineral",
     "Geografia": "Ollie BR",
     "Tipo": "Lançamento",
@@ -240,8 +240,8 @@
     "Notas": ""
   },
   {
-    "ID": "20260217-002",
-    "Data": "2026-02-17",
+    "ID": "20260217 00:00:00-002",
+    "Data": "2026-02-17 00:00:00",
     "Nome": "Lancamento Glow Facial",
     "Geografia": "Noma BR",
     "Tipo": "Campanha",
@@ -250,8 +250,8 @@
     "Notas": ""
   },
   {
-    "ID": "20260218-001",
-    "Data": "2026-02-18",
+    "ID": "20260218 00:00:00-001",
+    "Data": "2026-02-18 00:00:00",
     "Nome": "Lancamento Glow Facial",
     "Geografia": "Noma BR",
     "Tipo": "Campanha",
@@ -260,8 +260,8 @@
     "Notas": ""
   },
   {
-    "ID": "20260219-001",
-    "Data": "2026-02-19",
+    "ID": "20260219 00:00:00-001",
+    "Data": "2026-02-19 00:00:00",
     "Nome": "Lancamento Glow Facial",
     "Geografia": "Noma BR",
     "Tipo": "Campanha",
@@ -270,8 +270,8 @@
     "Notas": "Teste git hub"
   },
   {
-    "ID": "20260219-002",
-    "Data": "2026-02-19",
+    "ID": "20260219 00:00:00-002",
+    "Data": "2026-02-19 00:00:00",
     "Nome": "Lancamento Glow Facial",
     "Geografia": "Ollie MX",
     "Tipo": "Campanha",
@@ -280,33 +280,63 @@
     "Notas": "Teste git hub"
   },
   {
-    "ID": "20260620-001",
-    "Data": "2026-06-20",
+    "ID": "20260620 00:00:00-001",
+    "Data": "2026-06-20 00:00:00",
     "Nome": "Nova Operação Emirados Arabes",
     "Geografia": "Ollie CL",
     "Tipo": "Nova Operação",
     "Esforço": "G",
-    "Status": "🟡 Em Dev",
+    "Status": "🔴 Atrasado",
     "Notas": "Ainda deve ser validado"
   },
   {
-    "ID": "20260621-001",
-    "Data": "2026-06-21",
+    "ID": "20260621 00:00:00-001",
+    "Data": "2026-06-21 00:00:00",
     "Nome": "Lancamento Glow Facial",
     "Geografia": "Ollie CL",
     "Tipo": "Lançamento",
     "Esforço": "G",
-    "Status": "🟡 Em Dev",
+    "Status": "🔴 Atrasado",
     "Notas": "Previsão"
   },
   {
-    "ID": "20260622-001",
-    "Data": "2026-06-22",
+    "ID": "20260622 00:00:00-001",
+    "Data": "2026-06-22 00:00:00",
     "Nome": "Lancamento Glow Facial",
     "Geografia": "Ollie CL",
     "Tipo": "Lançamento",
     "Esforço": "G",
-    "Status": "🟡 Em Dev",
+    "Status": "🔴 Atrasado",
     "Notas": "Previsão"
+  },
+  {
+    "ID": "20260623 00:00:00-001",
+    "Data": "2026-06-23 00:00:00",
+    "Nome": "Lancamento Glow Facial",
+    "Geografia": "Ollie CL",
+    "Tipo": "Lançamento",
+    "Esforço": "G",
+    "Status": "🔴 Atrasado",
+    "Notas": "Previsão"
+  },
+  {
+    "ID": "20260624 00:00:00-001",
+    "Data": "2026-06-24 00:00:00",
+    "Nome": "Lancamento Glow Facial",
+    "Geografia": "Ollie MX",
+    "Tipo": "Lançamento",
+    "Esforço": "M",
+    "Status": "🟢 Live",
+    "Notas": "Teste"
+  },
+  {
+    "ID": "20260625 00:00:00-001",
+    "Data": "2026-06-25 00:00:00",
+    "Nome": "Lancamento Glow Facial",
+    "Geografia": "Ollie CO",
+    "Tipo": "Lançamento",
+    "Esforço": "M",
+    "Status": "🟡 Em Dev",
+    "Notas": "Teste"
   }
 ]
