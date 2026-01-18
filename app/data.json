@@ -47,7 +47,7 @@
     "Tipo": "Lançamento",
     "Status": "⏳ Backlog",
     "Owner": "Luiza",
-    "Notas": NaN
+    "Notas": ""
   },
   {
     "ID": "Fev03",
@@ -57,7 +57,7 @@
     "Tipo": "Lançamento",
     "Status": "⏳ Backlog",
     "Owner": "Guilherme",
-    "Notas": NaN
+    "Notas": ""
   },
   {
     "ID": "Mar01",
@@ -77,7 +77,7 @@
     "Tipo": "Lançamento",
     "Status": "⏳ Backlog",
     "Owner": "Breno",
-    "Notas": NaN
+    "Notas": ""
   },
   {
     "ID": "Mar03",
@@ -87,7 +87,7 @@
     "Tipo": "Campanha",
     "Status": "⏳ Backlog",
     "Owner": "Breno",
-    "Notas": NaN
+    "Notas": ""
   },
   {
     "ID": "Mar04",
@@ -117,7 +117,7 @@
     "Tipo": "Lançamento",
     "Status": "⏳ Backlog",
     "Owner": "Luiza",
-    "Notas": NaN
+    "Notas": ""
   },
   {
     "ID": "Abr02",
@@ -147,7 +147,7 @@
     "Tipo": "Campanha",
     "Status": "🔴 Crítico",
     "Owner": "Breno",
-    "Notas": NaN
+    "Notas": ""
   },
   {
     "ID": "Mai03",
@@ -167,7 +167,7 @@
     "Tipo": "Campanha",
     "Status": "🔴 Crítico",
     "Owner": "Guilherme",
-    "Notas": NaN
+    "Notas": ""
   },
   {
     "ID": "Nov01",
@@ -207,7 +207,7 @@
     "Tipo": "Campanha",
     "Status": "🔴 Crítico",
     "Owner": "Time",
-    "Notas": NaN
+    "Notas": ""
   },
   {
     "ID": "Nov05",
@@ -217,7 +217,7 @@
     "Tipo": "Campanha",
     "Status": "🔴 Crítico",
     "Owner": "Luiza",
-    "Notas": NaN
+    "Notas": ""
   },
   {
     "ID": "Nov06",
@@ -227,7 +227,7 @@
     "Tipo": "Campanha",
     "Status": "🔴 Crítico",
     "Owner": "Guilherme",
-    "Notas": NaN
+    "Notas": ""
   },
   {
     "ID": "Fev03",
@@ -237,6 +237,6 @@
     "Tipo": "Lançamento",
     "Status": "🟡 Em Dev",
     "Owner": "Luiza",
-    "Notas": NaN
+    "Notas": ""
   }
 ]
