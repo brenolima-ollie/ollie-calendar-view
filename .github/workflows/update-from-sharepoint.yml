@@ -1,6 +1,8 @@
 name: Update Calendar from SharePoint
 
 on:
+  schedule:
+    - cron: '*/15 * * * *'  # Executa a cada 15 minutos
   workflow_dispatch:
     inputs:
       trigger_source:
