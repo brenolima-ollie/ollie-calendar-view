@@ -29,7 +29,21 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pandas openpyxl
+          pip install pandas openpyxl requests
+
+      - name: Download Excel from OneDrive
+        env:
+          ONEDRIVE_URL: ${{ secrets.ONEDRIVE_EXCEL_URL }}
+        run: |
+          if [ -n "$ONEDRIVE_URL" ]; then
+            echo "Downloading Excel from OneDrive..."
+            # Convert OneDrive sharing link to direct download link
+            DIRECT_URL=$(echo "$ONEDRIVE_URL" | sed 's/redir/download/g')
+            curl -L "$DIRECT_URL" -o lancamentos_campanhas_2026.xlsx
+            echo "Excel downloaded successfully"
+          else
+            echo "Using Excel from repository (ONEDRIVE_EXCEL_URL not configured)"
+          fi
 
       - name: Convert Excel to JSON
         run: |
@@ -61,8 +75,16 @@ jobs:
           df['ID'] = df.groupby('Data').cumcount().add(1).astype(str).str.zfill(3)
           df['ID'] = df['Data'].str.replace('-', '') + '-' + df['ID']
 
-          # Reorder columns to put ID first
-          cols = ['ID'] + [col for col in df.columns if col != 'ID']
+          # Ensure Esforço column exists
+          if 'Esforço' not in df.columns:
+              df['Esforço'] = ''
+
+          # Reorder columns (without Owner)
+          cols_order = ['ID', 'Data', 'Nome', 'Geografia', 'Tipo', 'Esforço', 'Status', 'Notas']
+          for col in df.columns:
+              if col not in cols_order and col != 'Owner':
+                  cols_order.append(col)
+          cols = [col for col in cols_order if col in df.columns and col != 'Owner']
           df = df[cols]
 
           # Convert to JSON
