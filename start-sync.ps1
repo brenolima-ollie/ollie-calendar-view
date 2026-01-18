@@ -6,7 +6,7 @@ Write-Host "Iniciando sincronizador automático em background..." -ForegroundCol
 Write-Host ""
 
 # Iniciar em processo separado (janela oculta)
-$process = Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$scriptPath`"" -PassThru
+$process = Start-Process powershell -ArgumentList @("-NoProfile", "-ExecutionPolicy", "Bypass", "-WindowStyle", "Hidden", "-File", $scriptPath) -PassThru
 
 if ($process) {
     Write-Host "✓ Sincronizador iniciado com sucesso!" -ForegroundColor Green
