@@ -161,6 +161,17 @@ export function CalendarGrid({ events, selectedMonth, onMonthChange }: CalendarG
                         className="text-xs p-1.5 rounded border-l-4 bg-white hover:shadow-md transition-shadow cursor-pointer"
                         style={{ borderLeftColor: COLORS[event.Geografia] }}
                         title={`${event.Nome} - ${event.Geografia}`}
+                        onClick={() => {
+                          const element = document.getElementById(`event-${event.ID}`);
+                          if (element) {
+                            element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            // Highlight effect
+                            element.classList.add('ring-4', 'ring-ollie-red', 'ring-opacity-50');
+                            setTimeout(() => {
+                              element.classList.remove('ring-4', 'ring-ollie-red', 'ring-opacity-50');
+                            }, 2000);
+                          }
+                        }}
                       >
                         <div className="flex items-center gap-1">
                           {event.Tipo === "Lançamento" ? (

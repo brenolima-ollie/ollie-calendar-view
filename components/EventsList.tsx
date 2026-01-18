@@ -75,11 +75,12 @@ export function EventsList({ events }: EventsListProps) {
                 return (
                   <div
                     key={event.ID}
+                    id={`event-${event.ID}`}
                     className={`p-4 rounded-xl border-2 ${
                       isCritical
                         ? "bg-red-50 border-red-200"
                         : "bg-gray-50 border-gray-200"
-                    } hover:shadow-lg transition-all`}
+                    } hover:shadow-lg transition-all scroll-mt-4`}
                     style={{
                       borderLeftWidth: "6px",
                       borderLeftColor: COLORS[event.Geografia],
