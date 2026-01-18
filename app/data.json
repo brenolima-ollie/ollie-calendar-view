@@ -94,7 +94,7 @@
     "Data": "2026-03-15",
     "Nome": "Launch Chile",
     "Geografia": "Ollie CL",
-    "Tipo": "Lançamento",
+    "Tipo": "Nova Operação",
     "Esforço": "M",
     "Status": "🔴 Crítico",
     "Notas": "Milestone crítico - toda operação"
@@ -278,5 +278,15 @@
     "Esforço": "M",
     "Status": "🟡 Em Dev",
     "Notas": "Teste git hub"
+  },
+  {
+    "ID": "20260620-001",
+    "Data": "2026-06-20",
+    "Nome": "Nova Operação Emirados Arabes",
+    "Geografia": "Ollie CL",
+    "Tipo": "Nova Operação",
+    "Esforço": "G",
+    "Status": "🟡 Em Dev",
+    "Notas": "Ainda deve ser validado"
   }
 ]
