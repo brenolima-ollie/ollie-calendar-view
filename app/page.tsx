@@ -25,9 +25,20 @@ export default function Home() {
 
   const stats = useMemo(() => {
     const total = events.length;
-    const live = events.filter(e => e.Status.includes("🟢")).length;
-    const emDev = events.filter(e => e.Status.includes("🟡")).length;
-    const criticos = events.filter(e => e.Status.includes("🔴")).length;
+    // Novos status: ⏳ Planejado, 🔨 Em Produção, ✅ Concluído, ⚠️ Atrasado, ❌ Cancelado
+    // Mantém compatibilidade com status antigos: 🟢 Live, 🟡 Em Dev, 🔴 Crítico
+    const live = events.filter(
+      (e) => e.Status.includes("✅") || e.Status.includes("🟢"),
+    ).length;
+    const emDev = events.filter(
+      (e) =>
+        e.Status.includes("🔨") ||
+        e.Status.includes("🟡") ||
+        e.Status.includes("⏳"),
+    ).length;
+    const criticos = events.filter(
+      (e) => e.Status.includes("⚠️") || e.Status.includes("🔴"),
+    ).length;
 
     return { total, live, emDev, criticos };
   }, [events]);

@@ -11,21 +11,49 @@ interface CalendarGridProps {
 }
 
 const MONTHS = [
-  "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
-  "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
+  "Janeiro",
+  "Fevereiro",
+  "Março",
+  "Abril",
+  "Maio",
+  "Junho",
+  "Julho",
+  "Agosto",
+  "Setembro",
+  "Outubro",
+  "Novembro",
+  "Dezembro",
 ];
 
 const WEEKDAYS = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
 
 const COLORS: Record<string, string> = {
+  // Ollie - Operações existentes
   "Ollie BR": "#E7002A",
   "Ollie MX": "#FF502C",
   "Ollie CO": "#C9A0DC",
   "Ollie EU": "#87CEEB",
   "Ollie CL": "#FFD700",
+  "Ollie CB": "#808080",
+  // Ollie - Novas operações 2026
+  "Ollie UK": "#1E3A8A",
+  "Ollie PE": "#DC2626",
+  "Ollie AE": "#059669",
+  "Ollie IN": "#F97316",
+  "Ollie AR": "#75AADB",
+  "Ollie US": "#3B82F6",
+  // Marcas existentes
   "Noma BR": "#F5E6D3",
   "Joomi BR": "#FFB6C1",
-  "Ollie CB": "#808080",
+  // Novas marcas 2026
+  Umo: "#8B5CF6",
+  Minibar: "#EC4899",
+  Stelle: "#14B8A6",
+  Younsoo: "#F472B6",
+  Babycare: "#A3E635",
+  Scientific: "#6366F1",
+  // Global
+  Todos: "#6B7280",
   // Backward compatibility (old format)
   BR: "#E7002A",
   MX: "#FF502C",
@@ -37,7 +65,11 @@ const COLORS: Record<string, string> = {
   Global: "#808080",
 };
 
-export function CalendarGrid({ events, selectedMonth, onMonthChange }: CalendarGridProps) {
+export function CalendarGrid({
+  events,
+  selectedMonth,
+  onMonthChange,
+}: CalendarGridProps) {
   const year = 2026;
 
   // Get days in month
@@ -136,7 +168,7 @@ export function CalendarGrid({ events, selectedMonth, onMonthChange }: CalendarG
       <div className="grid grid-cols-7 gap-2">
         {calendarDays.map((day, index) => {
           const dayEvents = day ? eventsByDate[day] : null;
-          const hasCritical = dayEvents?.some(e => e.Status.includes("🔴"));
+          const hasCritical = dayEvents?.some((e) => e.Status.includes("🔴"));
 
           return (
             <div
@@ -162,19 +194,32 @@ export function CalendarGrid({ events, selectedMonth, onMonthChange }: CalendarG
                         style={{ borderLeftColor: COLORS[event.Geografia] }}
                         title={`${event.Nome} - ${event.Geografia}`}
                         onClick={() => {
-                          const element = document.getElementById(`event-${event.ID}`);
+                          const element = document.getElementById(
+                            `event-${event.ID}`,
+                          );
                           if (element) {
-                            element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            element.scrollIntoView({
+                              behavior: "smooth",
+                              block: "center",
+                            });
                             // Highlight effect
-                            element.classList.add('ring-4', 'ring-ollie-red', 'ring-opacity-50');
+                            element.classList.add(
+                              "ring-4",
+                              "ring-ollie-red",
+                              "ring-opacity-50",
+                            );
                             setTimeout(() => {
-                              element.classList.remove('ring-4', 'ring-ollie-red', 'ring-opacity-50');
+                              element.classList.remove(
+                                "ring-4",
+                                "ring-ollie-red",
+                                "ring-opacity-50",
+                              );
                             }, 2000);
                           }
                         }}
                       >
                         <div className="flex items-center gap-1">
-                          {event.Tipo === "Lançamento" ? (
+                          {event.Tipo.includes("Lançamento") ? (
                             <Rocket className="w-3 h-3 flex-shrink-0" />
                           ) : (
                             <PartyPopper className="w-3 h-3 flex-shrink-0" />

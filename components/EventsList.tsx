@@ -8,14 +8,32 @@ interface EventsListProps {
 }
 
 const COLORS: Record<string, string> = {
+  // Ollie - Operações existentes
   "Ollie BR": "#E7002A",
   "Ollie MX": "#FF502C",
   "Ollie CO": "#C9A0DC",
   "Ollie EU": "#87CEEB",
   "Ollie CL": "#FFD700",
+  "Ollie CB": "#808080",
+  // Ollie - Novas operações 2026
+  "Ollie UK": "#1E3A8A",
+  "Ollie PE": "#DC2626",
+  "Ollie AE": "#059669",
+  "Ollie IN": "#F97316",
+  "Ollie AR": "#75AADB",
+  "Ollie US": "#3B82F6",
+  // Marcas existentes
   "Noma BR": "#F5E6D3",
   "Joomi BR": "#FFB6C1",
-  "Ollie CB": "#808080",
+  // Novas marcas 2026
+  Umo: "#8B5CF6",
+  Minibar: "#EC4899",
+  Stelle: "#14B8A6",
+  Younsoo: "#F472B6",
+  Babycare: "#A3E635",
+  Scientific: "#6366F1",
+  // Global
+  Todos: "#6B7280",
   // Backward compatibility (old format)
   BR: "#E7002A",
   MX: "#FF502C",
@@ -28,8 +46,18 @@ const COLORS: Record<string, string> = {
 };
 
 const MONTHS = [
-  "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
-  "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
+  "Janeiro",
+  "Fevereiro",
+  "Março",
+  "Abril",
+  "Maio",
+  "Junho",
+  "Julho",
+  "Agosto",
+  "Setembro",
+  "Outubro",
+  "Novembro",
+  "Dezembro",
 ];
 
 export function EventsList({ events }: EventsListProps) {
@@ -47,7 +75,7 @@ export function EventsList({ events }: EventsListProps) {
   // Sort events within each month by date
   Object.keys(eventsByMonth).forEach((month) => {
     eventsByMonth[Number(month)].sort(
-      (a, b) => new Date(a.Data).getTime() - new Date(b.Data).getTime()
+      (a, b) => new Date(a.Data).getTime() - new Date(b.Data).getTime(),
     );
   });
 
@@ -63,14 +91,16 @@ export function EventsList({ events }: EventsListProps) {
               </span>
               {MONTHS[monthNum - 1]}
               <span className="text-sm font-normal text-gray-500">
-                ({monthEvents.length} {monthEvents.length === 1 ? "evento" : "eventos"})
+                ({monthEvents.length}{" "}
+                {monthEvents.length === 1 ? "evento" : "eventos"})
               </span>
             </h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {monthEvents.map((event) => {
                 const date = new Date(event.Data);
-                const isCritical = event.Status.includes("🔴");
+                const isCritical =
+                  event.Status.includes("🔴") || event.Status.includes("⚠️");
 
                 return (
                   <div
@@ -88,7 +118,7 @@ export function EventsList({ events }: EventsListProps) {
                   >
                     <div className="flex items-start justify-between mb-3">
                       <div className="flex items-center gap-2">
-                        {event.Tipo === "Lançamento" ? (
+                        {event.Tipo.includes("Lançamento") ? (
                           <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
                             <Rocket className="w-4 h-4 text-blue-600" />
                           </div>
@@ -101,7 +131,9 @@ export function EventsList({ events }: EventsListProps) {
                           {event.Geografia}
                         </span>
                       </div>
-                      <span className="text-lg">{event.Status.split(" ")[0]}</span>
+                      <span className="text-lg">
+                        {event.Status.split(" ")[0]}
+                      </span>
                     </div>
 
                     <h4 className="font-heading font-bold text-gray-900 mb-2">
