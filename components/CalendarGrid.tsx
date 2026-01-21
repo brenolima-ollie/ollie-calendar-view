@@ -1,7 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronLeft, ChevronRight, Rocket, PartyPopper } from "lucide-react";
+import {
+  ChevronLeft,
+  ChevronRight,
+  Rocket,
+  PartyPopper,
+  Globe,
+  Sparkles,
+  Calendar,
+} from "lucide-react";
 import type { CalendarEvent } from "@/app/page";
 
 interface CalendarGridProps {
@@ -219,10 +227,20 @@ export function CalendarGrid({
                         }}
                       >
                         <div className="flex items-center gap-1">
-                          {event.Tipo.includes("Lançamento") ? (
-                            <Rocket className="w-3 h-3 flex-shrink-0" />
-                          ) : (
-                            <PartyPopper className="w-3 h-3 flex-shrink-0" />
+                          {event.Tipo === "Lançamento Produto" && (
+                            <Rocket className="w-3 h-3 flex-shrink-0 text-blue-600" />
+                          )}
+                          {event.Tipo === "Lançamento Marca" && (
+                            <Sparkles className="w-3 h-3 flex-shrink-0 text-purple-600" />
+                          )}
+                          {event.Tipo === "Lançamento Operação" && (
+                            <Globe className="w-3 h-3 flex-shrink-0 text-green-600" />
+                          )}
+                          {event.Tipo === "Data Comercial" && (
+                            <Calendar className="w-3 h-3 flex-shrink-0 text-orange-600" />
+                          )}
+                          {event.Tipo === "Campanha" && (
+                            <PartyPopper className="w-3 h-3 flex-shrink-0 text-pink-600" />
                           )}
                           <span className="truncate font-medium">
                             {event.Geografia}

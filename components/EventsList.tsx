@@ -1,6 +1,6 @@
 "use client";
 
-import { Rocket, PartyPopper } from "lucide-react";
+import { Rocket, PartyPopper, Globe, Sparkles, Calendar } from "lucide-react";
 import type { CalendarEvent } from "@/app/page";
 
 interface EventsListProps {
@@ -118,13 +118,29 @@ export function EventsList({ events }: EventsListProps) {
                   >
                     <div className="flex items-start justify-between mb-3">
                       <div className="flex items-center gap-2">
-                        {event.Tipo.includes("Lançamento") ? (
+                        {event.Tipo === "Lançamento Produto" && (
                           <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
                             <Rocket className="w-4 h-4 text-blue-600" />
                           </div>
-                        ) : (
+                        )}
+                        {event.Tipo === "Lançamento Marca" && (
                           <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
-                            <PartyPopper className="w-4 h-4 text-purple-600" />
+                            <Sparkles className="w-4 h-4 text-purple-600" />
+                          </div>
+                        )}
+                        {event.Tipo === "Lançamento Operação" && (
+                          <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
+                            <Globe className="w-4 h-4 text-green-600" />
+                          </div>
+                        )}
+                        {event.Tipo === "Data Comercial" && (
+                          <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center">
+                            <Calendar className="w-4 h-4 text-orange-600" />
+                          </div>
+                        )}
+                        {event.Tipo === "Campanha" && (
+                          <div className="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center">
+                            <PartyPopper className="w-4 h-4 text-pink-600" />
                           </div>
                         )}
                         <span className="text-xs font-semibold text-gray-600 bg-white px-2 py-1 rounded">

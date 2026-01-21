@@ -1,5 +1,7 @@
 "use client";
 
+import { Rocket, Sparkles, Globe, Calendar, PartyPopper } from "lucide-react";
+
 const COLORS = [
   // Ollie - Operações existentes
   { name: "Ollie Brasil", color: "#E7002A", code: "Ollie BR" },
@@ -54,6 +56,42 @@ export function Legend() {
       </div>
 
       <div className="mt-6 pt-6 border-t border-gray-200">
+        <h3 className="text-sm font-semibold text-gray-700 mb-3">
+          Tipos de Evento
+        </h3>
+        <div className="flex flex-wrap gap-4 mb-6">
+          <div className="flex items-center gap-2">
+            <div className="w-6 h-6 bg-blue-100 rounded flex items-center justify-center">
+              <Rocket className="w-3 h-3 text-blue-600" />
+            </div>
+            <span className="text-sm text-gray-600">Lançamento Produto</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="w-6 h-6 bg-purple-100 rounded flex items-center justify-center">
+              <Sparkles className="w-3 h-3 text-purple-600" />
+            </div>
+            <span className="text-sm text-gray-600">Lançamento Marca</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="w-6 h-6 bg-green-100 rounded flex items-center justify-center">
+              <Globe className="w-3 h-3 text-green-600" />
+            </div>
+            <span className="text-sm text-gray-600">Lançamento Operação</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="w-6 h-6 bg-orange-100 rounded flex items-center justify-center">
+              <Calendar className="w-3 h-3 text-orange-600" />
+            </div>
+            <span className="text-sm text-gray-600">Data Comercial</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="w-6 h-6 bg-pink-100 rounded flex items-center justify-center">
+              <PartyPopper className="w-3 h-3 text-pink-600" />
+            </div>
+            <span className="text-sm text-gray-600">Campanha</span>
+          </div>
+        </div>
+
         <h3 className="text-sm font-semibold text-gray-700 mb-3">Status</h3>
         <div className="flex flex-wrap gap-4">
           <div className="flex items-center gap-2">
