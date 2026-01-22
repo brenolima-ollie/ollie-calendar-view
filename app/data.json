@@ -1,5 +1,15 @@
 [
   {
+    "ID": "20260315-001",
+    "Data": "2026-03-15",
+    "Operação": "Noma BR",
+    "Nome": "Body Splash Golden Hour",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "✅ Concluído",
+    "Notas": ""
+  },
+  {
     "ID": "20260130-001",
     "Data": "2026-01-30",
     "Operação": "Ollie BR",
@@ -130,7 +140,7 @@
     "Notas": "Colômbia"
   },
   {
-    "ID": "20260315-001",
+    "ID": "20260315-002",
     "Data": "2026-03-15",
     "Operação": "Ollie UK",
     "Nome": "Lançamento Operação Ollie UK",
@@ -140,7 +150,7 @@
     "Notas": "E-commerce - Mercado: $721M, CAGR 7% - Amazon, TikTok Shop"
   },
   {
-    "ID": "20260315-002",
+    "ID": "20260315-003",
     "Data": "2026-03-15",
     "Operação": "Ollie CL",
     "Nome": "Lançamento Operação Ollie Chile",
@@ -150,7 +160,7 @@
     "Notas": "E-commerce - Mercado: $64M, CAGR 11% - Meli, Falabella, Amazon"
   },
   {
-    "ID": "20260315-003",
+    "ID": "20260315-004",
     "Data": "2026-03-15",
     "Operação": "Noma BR",
     "Nome": "Mini Body Splash",
@@ -160,7 +170,7 @@
     "Notas": ""
   },
   {
-    "ID": "20260315-004",
+    "ID": "20260315-005",
     "Data": "2026-03-15",
     "Operação": "Ollie MX",
     "Nome": "Novos tons 3 em 1",
@@ -170,7 +180,7 @@
     "Notas": "México"
   },
   {
-    "ID": "20260315-005",
+    "ID": "20260315-006",
     "Data": "2026-03-15",
     "Operação": "Ollie EU",
     "Nome": "Novos tons 3 em 1",
@@ -180,7 +190,7 @@
     "Notas": "Europa"
   },
   {
-    "ID": "20260315-006",
+    "ID": "20260315-007",
     "Data": "2026-03-15",
     "Operação": "Ollie MX",
     "Nome": "Hot Sale",
