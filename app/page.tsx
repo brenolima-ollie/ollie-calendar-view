@@ -11,7 +11,8 @@ import { Legend } from "@/components/Legend";
 export interface CalendarEvent {
   ID: string;
   Data: string;
-  Operação: string;
+  Operação?: string;
+  Geografia?: string;
   Nome: string;
   Tipo: string;
   Esforço: string;

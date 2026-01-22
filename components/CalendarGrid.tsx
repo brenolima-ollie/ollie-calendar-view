@@ -200,9 +200,11 @@ export function CalendarGrid({
                         key={event.ID}
                         className="text-xs p-1.5 rounded border-l-4 bg-white hover:shadow-md transition-shadow cursor-pointer"
                         style={{
-                          borderLeftColor: COLORS[event.Operação] || "#6B7280",
+                          borderLeftColor:
+                            COLORS[event.Operação || event.Geografia || ""] ||
+                            "#6B7280",
                         }}
-                        title={`${event.Nome} - ${event.Operação}`}
+                        title={`${event.Nome} - ${event.Operação || event.Geografia}`}
                         onClick={() => {
                           const element = document.getElementById(
                             `event-${event.ID}`,
@@ -245,7 +247,7 @@ export function CalendarGrid({
                             <PartyPopper className="w-3 h-3 flex-shrink-0 text-pink-600" />
                           )}
                           <span className="truncate font-medium">
-                            {event.Operação}
+                            {event.Operação || event.Geografia}
                           </span>
                           {event.Esforço && (
                             <span className="text-gray-400 text-[10px] ml-auto flex-shrink-0">

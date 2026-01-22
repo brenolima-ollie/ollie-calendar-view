@@ -113,7 +113,9 @@ export function EventsList({ events }: EventsListProps) {
                     } hover:shadow-lg transition-all scroll-mt-4`}
                     style={{
                       borderLeftWidth: "6px",
-                      borderLeftColor: COLORS[event.Operação] || "#6B7280",
+                      borderLeftColor:
+                        COLORS[event.Operação || event.Geografia || ""] ||
+                        "#6B7280",
                     }}
                   >
                     <div className="flex items-start justify-between mb-3">
@@ -147,10 +149,11 @@ export function EventsList({ events }: EventsListProps) {
                           className="text-sm font-bold text-white px-3 py-1.5 rounded-lg shadow-sm"
                           style={{
                             backgroundColor:
-                              COLORS[event.Operação] || "#6B7280",
+                              COLORS[event.Operação || event.Geografia || ""] ||
+                              "#6B7280",
                           }}
                         >
-                          {event.Operação}
+                          {event.Operação || event.Geografia}
                         </span>
                       </div>
                       <span className="text-lg">
