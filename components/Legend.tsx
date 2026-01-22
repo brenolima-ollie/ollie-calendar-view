@@ -35,7 +35,7 @@ export function Legend() {
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 lg:p-8">
       <h2 className="text-xl font-heading font-bold text-gray-900 mb-6">
-        Legenda de Cores
+        Operações
       </h2>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

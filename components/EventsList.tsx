@@ -113,11 +113,11 @@ export function EventsList({ events }: EventsListProps) {
                     } hover:shadow-lg transition-all scroll-mt-4`}
                     style={{
                       borderLeftWidth: "6px",
-                      borderLeftColor: COLORS[event.Geografia],
+                      borderLeftColor: COLORS[event.Operação] || "#6B7280",
                     }}
                   >
                     <div className="flex items-start justify-between mb-3">
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-3">
                         {event.Tipo === "Lançamento Produto" && (
                           <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
                             <Rocket className="w-4 h-4 text-blue-600" />
@@ -143,8 +143,14 @@ export function EventsList({ events }: EventsListProps) {
                             <PartyPopper className="w-4 h-4 text-pink-600" />
                           </div>
                         )}
-                        <span className="text-xs font-semibold text-gray-600 bg-white px-2 py-1 rounded">
-                          {event.Geografia}
+                        <span
+                          className="text-sm font-bold text-white px-3 py-1.5 rounded-lg shadow-sm"
+                          style={{
+                            backgroundColor:
+                              COLORS[event.Operação] || "#6B7280",
+                          }}
+                        >
+                          {event.Operação}
                         </span>
                       </div>
                       <span className="text-lg">
