@@ -2,8 +2,8 @@
   {
     "ID": "20260115-001",
     "Data": "2026-01-15",
+    "Operação": "Ollie BR",
     "Nome": "Ollie BR - Novas cores 3 em 1",
-    "Geografia": "Ollie BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "🔨 Em Produção",
@@ -12,8 +12,8 @@
   {
     "ID": "20260127-001",
     "Data": "2026-01-27",
+    "Operação": "Joomi BR",
     "Nome": "Joomi - Novos produtos skincare",
-    "Geografia": "Joomi BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "🔨 Em Produção",
@@ -22,8 +22,8 @@
   {
     "ID": "20260214-001",
     "Data": "2026-02-14",
+    "Operação": "Todos",
     "Nome": "Valentine's Day",
-    "Geografia": "Todos",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -32,8 +32,8 @@
   {
     "ID": "20260215-001",
     "Data": "2026-02-15",
+    "Operação": "Ollie BR",
     "Nome": "Ollie BR - Leave-in",
-    "Geografia": "Ollie BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -42,8 +42,8 @@
   {
     "ID": "20260215-002",
     "Data": "2026-02-15",
+    "Operação": "Joomi BR",
     "Nome": "Joomi - Estojo com estrelas pretas",
-    "Geografia": "Joomi BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "P",
     "Status": "⏳ Planejado",
@@ -52,8 +52,8 @@
   {
     "ID": "20260215-003",
     "Data": "2026-02-15",
+    "Operação": "Joomi BR",
     "Nome": "Joomi - Adesivo oval",
-    "Geografia": "Joomi BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "P",
     "Status": "⏳ Planejado",
@@ -62,8 +62,8 @@
   {
     "ID": "20260215-004",
     "Data": "2026-02-15",
+    "Operação": "Ollie CO",
     "Nome": "Ollie CO - Creme de Mãos e Mineral",
-    "Geografia": "Ollie CO",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "🔨 Em Produção",
@@ -72,18 +72,68 @@
   {
     "ID": "20260215-005",
     "Data": "2026-02-15",
-    "Nome": "Ollie MX - Mineral e Hidratante Corporal",
-    "Geografia": "Ollie MX",
+    "Operação": "Ollie CO",
+    "Nome": "Ollie CO - Mineral",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "Colômbia"
+  },
+  {
+    "ID": "20260215-006",
+    "Data": "2026-02-15",
+    "Operação": "Ollie MX",
+    "Nome": "Ollie MX - Mineral",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
     "Notas": "México"
   },
   {
+    "ID": "20260215-007",
+    "Data": "2026-02-15",
+    "Operação": "Ollie MX",
+    "Nome": "Ollie MX - Hidratante Corporal",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "🔨 Em Produção",
+    "Notas": "México"
+  },
+  {
+    "ID": "20260215-008",
+    "Data": "2026-02-15",
+    "Operação": "Ollie MX",
+    "Nome": "Ollie MX - Incolor",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "México"
+  },
+  {
+    "ID": "20260301-001",
+    "Data": "2026-03-01",
+    "Operação": "Ollie CO",
+    "Nome": "Ollie CO - Hidratante Corporal e Incolor",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "🔨 Em Produção",
+    "Notas": "Colômbia"
+  },
+  {
+    "ID": "20260301-002",
+    "Data": "2026-03-01",
+    "Operação": "Ollie CO",
+    "Nome": "Ollie CO - Incolor",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "🔨 Em Produção",
+    "Notas": "Colômbia"
+  },
+  {
     "ID": "20260315-001",
     "Data": "2026-03-15",
+    "Operação": "Ollie UK",
     "Nome": "Lançamento Ollie UK",
-    "Geografia": "Ollie UK",
     "Tipo": "Lançamento Operação",
     "Esforço": "G",
     "Status": "⏳ Planejado",
@@ -92,8 +142,8 @@
   {
     "ID": "20260315-002",
     "Data": "2026-03-15",
+    "Operação": "Ollie CL",
     "Nome": "Lançamento Ollie Chile",
-    "Geografia": "Ollie CL",
     "Tipo": "Lançamento Operação",
     "Esforço": "G",
     "Status": "🔨 Em Produção",
@@ -102,38 +152,18 @@
   {
     "ID": "20260315-003",
     "Data": "2026-03-15",
+    "Operação": "Noma BR",
     "Nome": "Noma - Mini Body Splash",
-    "Geografia": "Noma BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
     "Notas": ""
   },
   {
-    "ID": "20260301-001",
-    "Data": "2026-03-01",
-    "Nome": "Ollie CO - Hidratante Corporal e Incolor",
-    "Geografia": "Ollie CO",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "🔨 Em Produção",
-    "Notas": "Colômbia"
-  },
-  {
-    "ID": "20260215-006",
-    "Data": "2026-02-15",
-    "Nome": "Ollie MX - Hidratante Corporal e Incolor",
-    "Geografia": "Ollie MX",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "🔨 Em Produção",
-    "Notas": "México"
-  },
-  {
     "ID": "20260315-004",
     "Data": "2026-03-15",
+    "Operação": "Ollie MX",
     "Nome": "Ollie MX - Novos tons 3 em 1 e Incolor",
-    "Geografia": "Ollie MX",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -142,8 +172,8 @@
   {
     "ID": "20260315-005",
     "Data": "2026-03-15",
+    "Operação": "Ollie EU",
     "Nome": "Ollie EU - Novos tons 3 em 1",
-    "Geografia": "Ollie EU",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -152,8 +182,8 @@
   {
     "ID": "20260315-006",
     "Data": "2026-03-15",
+    "Operação": "Ollie MX",
     "Nome": "Hot Sale",
-    "Geografia": "Ollie MX",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -162,8 +192,8 @@
   {
     "ID": "20260330-001",
     "Data": "2026-03-30",
+    "Operação": "Ollie MX",
     "Nome": "Holy Week",
-    "Geografia": "Ollie MX",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -172,8 +202,8 @@
   {
     "ID": "20260405-001",
     "Data": "2026-04-05",
+    "Operação": "Ollie EU",
     "Nome": "Páscoa",
-    "Geografia": "Ollie EU",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -182,8 +212,8 @@
   {
     "ID": "20260415-001",
     "Data": "2026-04-15",
+    "Operação": "Ollie BR",
     "Nome": "Ollie BR - Corretivo",
-    "Geografia": "Ollie BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -192,8 +222,8 @@
   {
     "ID": "20260415-002",
     "Data": "2026-04-15",
+    "Operação": "Noma BR",
     "Nome": "Noma - Iluminador",
-    "Geografia": "Noma BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -202,8 +232,8 @@
   {
     "ID": "20260415-003",
     "Data": "2026-04-15",
+    "Operação": "Ollie CO",
     "Nome": "Ollie CO - Novos tons 3 em 1 + Creme de Olhos",
-    "Geografia": "Ollie CO",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -212,8 +242,8 @@
   {
     "ID": "20260415-004",
     "Data": "2026-04-15",
+    "Operação": "Ollie MX",
     "Nome": "Ollie MX - Creme de Olhos",
-    "Geografia": "Ollie MX",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -222,8 +252,8 @@
   {
     "ID": "20260415-005",
     "Data": "2026-04-15",
+    "Operação": "Ollie EU",
     "Nome": "Ollie EU - Creme de Olhos",
-    "Geografia": "Ollie EU",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -232,8 +262,8 @@
   {
     "ID": "20260415-006",
     "Data": "2026-04-15",
+    "Operação": "Ollie EU",
     "Nome": "Verão Europa - Início",
-    "Geografia": "Ollie EU",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -242,8 +272,8 @@
   {
     "ID": "20260430-001",
     "Data": "2026-04-30",
+    "Operação": "Ollie MX",
     "Nome": "Día del Niño",
-    "Geografia": "Ollie MX",
     "Tipo": "Data Comercial",
     "Esforço": "P",
     "Status": "⏳ Planejado",
@@ -252,8 +282,8 @@
   {
     "ID": "20260510-001",
     "Data": "2026-05-10",
+    "Operação": "Todos",
     "Nome": "Mother's Day",
-    "Geografia": "Todos",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -262,8 +292,8 @@
   {
     "ID": "20260515-001",
     "Data": "2026-05-15",
+    "Operação": "Umo",
     "Nome": "Lançamento Marca Umo",
-    "Geografia": "Umo",
     "Tipo": "Lançamento Marca",
     "Esforço": "G",
     "Status": "⏳ Planejado",
@@ -272,8 +302,8 @@
   {
     "ID": "20260515-002",
     "Data": "2026-05-15",
+    "Operação": "Ollie BR",
     "Nome": "Ollie BR - Novas cores Com Cor",
-    "Geografia": "Ollie BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -282,8 +312,8 @@
   {
     "ID": "20260515-003",
     "Data": "2026-05-15",
+    "Operação": "Noma BR",
     "Nome": "Noma - Hair Mist",
-    "Geografia": "Noma BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -292,8 +322,8 @@
   {
     "ID": "20260515-004",
     "Data": "2026-05-15",
+    "Operação": "Joomi BR",
     "Nome": "Joomi - Esfoliante com carvão ativado",
-    "Geografia": "Joomi BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -302,8 +332,8 @@
   {
     "ID": "20260515-005",
     "Data": "2026-05-15",
+    "Operação": "Joomi BR",
     "Nome": "Joomi - Gel secativo para espinhas",
-    "Geografia": "Joomi BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -312,8 +342,8 @@
   {
     "ID": "20260515-006",
     "Data": "2026-05-15",
+    "Operação": "Joomi BR",
     "Nome": "Joomi - Ácido glicólico para manchas",
-    "Geografia": "Joomi BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -322,8 +352,8 @@
   {
     "ID": "20260515-007",
     "Data": "2026-05-15",
+    "Operação": "Ollie CO",
     "Nome": "Ollie CO - Glow Facial",
-    "Geografia": "Ollie CO",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -332,8 +362,8 @@
   {
     "ID": "20260515-008",
     "Data": "2026-05-15",
+    "Operação": "Ollie MX",
     "Nome": "Ollie MX - Glow Facial",
-    "Geografia": "Ollie MX",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -342,8 +372,8 @@
   {
     "ID": "20260525-001",
     "Data": "2026-05-25",
+    "Operação": "Ollie MX",
     "Nome": "Hot Sale",
-    "Geografia": "Ollie MX",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -352,8 +382,8 @@
   {
     "ID": "20260615-001",
     "Data": "2026-06-15",
+    "Operação": "Ollie PE",
     "Nome": "Lançamento Ollie Peru",
-    "Geografia": "Ollie PE",
     "Tipo": "Lançamento Operação",
     "Esforço": "G",
     "Status": "⏳ Planejado",
@@ -362,8 +392,8 @@
   {
     "ID": "20260615-002",
     "Data": "2026-06-15",
+    "Operação": "Ollie AE",
     "Nome": "Lançamento Ollie UAE",
-    "Geografia": "Ollie AE",
     "Tipo": "Lançamento Operação",
     "Esforço": "G",
     "Status": "⏳ Planejado",
@@ -372,8 +402,8 @@
   {
     "ID": "20260615-003",
     "Data": "2026-06-15",
+    "Operação": "Minibar",
     "Nome": "Lançamento Marca Minibar",
-    "Geografia": "Minibar",
     "Tipo": "Lançamento Marca",
     "Esforço": "G",
     "Status": "⏳ Planejado",
@@ -382,8 +412,8 @@
   {
     "ID": "20260615-004",
     "Data": "2026-06-15",
+    "Operação": "Noma BR",
     "Nome": "Noma - Bastões",
-    "Geografia": "Noma BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -392,8 +422,8 @@
   {
     "ID": "20260615-005",
     "Data": "2026-06-15",
+    "Operação": "Todos",
     "Nome": "2026 FIFA World Cup",
-    "Geografia": "Todos",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -402,8 +432,8 @@
   {
     "ID": "20260615-006",
     "Data": "2026-06-15",
+    "Operação": "Ollie MX",
     "Nome": "Summer peak season - Início",
-    "Geografia": "Ollie MX",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -412,8 +442,8 @@
   {
     "ID": "20260701-001",
     "Data": "2026-07-01",
+    "Operação": "Ollie AR",
     "Nome": "Lançamento Ollie Argentina",
-    "Geografia": "Ollie AR",
     "Tipo": "Lançamento Operação",
     "Esforço": "G",
     "Status": "⏳ Planejado",
@@ -422,8 +452,8 @@
   {
     "ID": "20260701-002",
     "Data": "2026-07-01",
+    "Operação": "Ollie US",
     "Nome": "Lançamento Ollie USA",
-    "Geografia": "Ollie US",
     "Tipo": "Lançamento Operação",
     "Esforço": "G",
     "Status": "⏳ Planejado",
@@ -432,8 +462,8 @@
   {
     "ID": "20260710-001",
     "Data": "2026-07-10",
+    "Operação": "Todos",
     "Nome": "Amazon Prime Day",
-    "Geografia": "Todos",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -442,8 +472,8 @@
   {
     "ID": "20260715-001",
     "Data": "2026-07-15",
+    "Operação": "Ollie BR",
     "Nome": "Ollie BR - Pó compacto",
-    "Geografia": "Ollie BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -452,8 +482,8 @@
   {
     "ID": "20260715-002",
     "Data": "2026-07-15",
+    "Operação": "Noma BR",
     "Nome": "Noma - Deo Colônia",
-    "Geografia": "Noma BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -462,8 +492,8 @@
   {
     "ID": "20260815-001",
     "Data": "2026-08-15",
+    "Operação": "Stelle",
     "Nome": "Lançamento Marca Stelle",
-    "Geografia": "Stelle",
     "Tipo": "Lançamento Marca",
     "Esforço": "G",
     "Status": "⏳ Planejado",
@@ -472,8 +502,8 @@
   {
     "ID": "20260815-002",
     "Data": "2026-08-15",
+    "Operação": "Ollie BR",
     "Nome": "Ollie BR - Bastão Incolor",
-    "Geografia": "Ollie BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -482,8 +512,8 @@
   {
     "ID": "20260815-003",
     "Data": "2026-08-15",
+    "Operação": "Noma BR",
     "Nome": "Noma - Sérum",
-    "Geografia": "Noma BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -492,8 +522,8 @@
   {
     "ID": "20260815-004",
     "Data": "2026-08-15",
+    "Operação": "Ollie MX",
     "Nome": "Back to school",
-    "Geografia": "Ollie MX",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -502,8 +532,8 @@
   {
     "ID": "20260915-001",
     "Data": "2026-09-15",
+    "Operação": "Younsoo",
     "Nome": "Lançamento Marca Younsoo",
-    "Geografia": "Younsoo",
     "Tipo": "Lançamento Marca",
     "Esforço": "G",
     "Status": "⏳ Planejado",
@@ -512,8 +542,8 @@
   {
     "ID": "20260915-002",
     "Data": "2026-09-15",
+    "Operação": "Ollie BR",
     "Nome": "Ollie BR - Pós sol e Aerossol",
-    "Geografia": "Ollie BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -522,8 +552,8 @@
   {
     "ID": "20260915-003",
     "Data": "2026-09-15",
+    "Operação": "Ollie EU",
     "Nome": "Back to school",
-    "Geografia": "Ollie EU",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -532,8 +562,8 @@
   {
     "ID": "20260919-001",
     "Data": "2026-09-19",
+    "Operação": "Ollie CO",
     "Nome": "Día del Amor y Amistad",
-    "Geografia": "Ollie CO",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -542,8 +572,8 @@
   {
     "ID": "20261015-001",
     "Data": "2026-10-15",
+    "Operação": "Ollie IN",
     "Nome": "Lançamento Ollie India",
-    "Geografia": "Ollie IN",
     "Tipo": "Lançamento Operação",
     "Esforço": "G",
     "Status": "⏳ Planejado",
@@ -552,8 +582,8 @@
   {
     "ID": "20261015-002",
     "Data": "2026-10-15",
+    "Operação": "Ollie BR",
     "Nome": "Ollie BR - Bifásico",
-    "Geografia": "Ollie BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -562,8 +592,8 @@
   {
     "ID": "20261015-003",
     "Data": "2026-10-15",
+    "Operação": "Ollie MX",
     "Nome": "Hot Sale",
-    "Geografia": "Ollie MX",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -572,8 +602,8 @@
   {
     "ID": "20261113-001",
     "Data": "2026-11-13",
+    "Operação": "Ollie MX",
     "Nome": "El Buen Fin",
-    "Geografia": "Ollie MX",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -582,8 +612,8 @@
   {
     "ID": "20261115-001",
     "Data": "2026-11-15",
+    "Operação": "Babycare",
     "Nome": "Lançamento Marca Babycare",
-    "Geografia": "Babycare",
     "Tipo": "Lançamento Marca",
     "Esforço": "G",
     "Status": "⏳ Planejado",
@@ -592,8 +622,8 @@
   {
     "ID": "20261115-002",
     "Data": "2026-11-15",
+    "Operação": "Noma BR",
     "Nome": "Noma - Linha Banho",
-    "Geografia": "Noma BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -602,8 +632,8 @@
   {
     "ID": "20261115-003",
     "Data": "2026-11-15",
+    "Operação": "Ollie BR",
     "Nome": "Sunfriday",
-    "Geografia": "Ollie BR",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -612,8 +642,8 @@
   {
     "ID": "20261115-004",
     "Data": "2026-11-15",
+    "Operação": "Ollie EU",
     "Nome": "Ski season + Winter escape - Início",
-    "Geografia": "Ollie EU",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -622,8 +652,8 @@
   {
     "ID": "20261127-001",
     "Data": "2026-11-27",
+    "Operação": "Todos",
     "Nome": "Black Friday",
-    "Geografia": "Todos",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -632,8 +662,8 @@
   {
     "ID": "20261130-001",
     "Data": "2026-11-30",
+    "Operação": "Todos",
     "Nome": "Cyber Monday",
-    "Geografia": "Todos",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -642,8 +672,8 @@
   {
     "ID": "20261215-001",
     "Data": "2026-12-15",
+    "Operação": "Ollie BR",
     "Nome": "Ollie BR - Labial",
-    "Geografia": "Ollie BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -652,8 +682,8 @@
   {
     "ID": "20261215-002",
     "Data": "2026-12-15",
+    "Operação": "Noma BR",
     "Nome": "Noma - Skincare Agradal",
-    "Geografia": "Noma BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -662,8 +692,8 @@
   {
     "ID": "20261225-001",
     "Data": "2026-12-25",
+    "Operação": "Todos",
     "Nome": "Christmas holidays",
-    "Geografia": "Todos",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -672,8 +702,8 @@
   {
     "ID": "20261231-001",
     "Data": "2026-12-31",
+    "Operação": "Scientific",
     "Nome": "Lançamento Marca Scientific Skincare",
-    "Geografia": "Scientific",
     "Tipo": "Lançamento Marca",
     "Esforço": "G",
     "Status": "⏳ Planejado",
@@ -682,8 +712,8 @@
   {
     "ID": "20261231-002",
     "Data": "2026-12-31",
+    "Operação": "Noma BR",
     "Nome": "Noma - Body Splash Novos Sabores",
-    "Geografia": "Noma BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -692,8 +722,8 @@
   {
     "ID": "20261231-003",
     "Data": "2026-12-31",
+    "Operação": "Noma BR",
     "Nome": "Noma - Skincare completo",
-    "Geografia": "Noma BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -702,8 +732,8 @@
   {
     "ID": "20261231-004",
     "Data": "2026-12-31",
+    "Operação": "Noma BR",
     "Nome": "Noma - Linha Home",
-    "Geografia": "Noma BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -712,8 +742,8 @@
   {
     "ID": "20261231-005",
     "Data": "2026-12-31",
+    "Operação": "Ollie MX",
     "Nome": "Ollie MX - Creme de mãos",
-    "Geografia": "Ollie MX",
     "Tipo": "Lançamento Produto",
     "Esforço": "P",
     "Status": "⏳ Planejado",
