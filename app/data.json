@@ -6,7 +6,7 @@
     "Geografia": "Ollie BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "⏳ Planejado",
+    "Status": "🔨 Em Produção",
     "Notas": "Brasil"
   },
   {
@@ -16,7 +16,7 @@
     "Geografia": "Joomi BR",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "⏳ Planejado",
+    "Status": "🔨 Em Produção",
     "Notas": "Hidratante e Espuma com ácido salicílico (voltado para peles com acne)"
   },
   {
@@ -66,7 +66,7 @@
     "Geografia": "Ollie CO",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "⏳ Planejado",
+    "Status": "🔨 Em Produção",
     "Notas": "Colômbia"
   },
   {
@@ -96,7 +96,7 @@
     "Geografia": "Ollie CL",
     "Tipo": "Lançamento Operação",
     "Esforço": "G",
-    "Status": "⏳ Planejado",
+    "Status": "🔨 Em Produção",
     "Notas": "E-commerce - Mercado: $64M, CAGR 11% - Meli, Falabella, Amazon"
   },
   {
@@ -110,17 +110,27 @@
     "Notas": ""
   },
   {
-    "ID": "20260315-004",
-    "Data": "2026-03-15",
+    "ID": "20260301-001",
+    "Data": "2026-03-01",
     "Nome": "Ollie CO - Hidratante Corporal e Incolor",
     "Geografia": "Ollie CO",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "⏳ Planejado",
+    "Status": "🔨 Em Produção",
     "Notas": "Colômbia"
   },
   {
-    "ID": "20260315-005",
+    "ID": "20260215-006",
+    "Data": "2026-02-15",
+    "Nome": "Ollie MX - Hidratante Corporal e Incolor",
+    "Geografia": "Ollie MX",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "🔨 Em Produção",
+    "Notas": "México"
+  },
+  {
+    "ID": "20260315-004",
     "Data": "2026-03-15",
     "Nome": "Ollie MX - Novos tons 3 em 1 e Incolor",
     "Geografia": "Ollie MX",
@@ -130,7 +140,7 @@
     "Notas": "México"
   },
   {
-    "ID": "20260315-006",
+    "ID": "20260315-005",
     "Data": "2026-03-15",
     "Nome": "Ollie EU - Novos tons 3 em 1",
     "Geografia": "Ollie EU",
@@ -140,7 +150,7 @@
     "Notas": "Europa"
   },
   {
-    "ID": "20260315-007",
+    "ID": "20260315-006",
     "Data": "2026-03-15",
     "Nome": "Hot Sale",
     "Geografia": "Ollie MX",
