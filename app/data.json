@@ -40,6 +40,16 @@
     "Notas": "CO, MX"
   },
   {
+    "ID": "20260201-001",
+    "Data": "2026-02-01",
+    "Operação": "Ollie EU",
+    "Nome": "Temporada de Ski",
+    "Tipo": "Campanha",
+    "Esforço": "P",
+    "Status": "⏳ Planejado",
+    "Notas": "LP similar à home, com banner, videos e reviews remetendo a Ski"
+  },
+  {
     "ID": "20260316-001",
     "Data": "2026-03-16",
     "Operação": "Ollie BR",
