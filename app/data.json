@@ -1,7 +1,7 @@
 [
   {
-    "ID": "20260123-001",
-    "Data": "2026-01-23",
+    "ID": "20260126-001",
+    "Data": "2026-01-26",
     "Operação": "Noma BR",
     "Nome": "Body Splash Golden Hour",
     "Tipo": "Lançamento Produto",
@@ -28,6 +28,16 @@
     "Esforço": "M",
     "Status": "🔨 Em Produção",
     "Notas": "Hidratante e Espuma com ácido salicílico (voltado para peles com acne)"
+  },
+  {
+    "ID": "20260129-001",
+    "Data": "2026-01-29",
+    "Operação": "Ollie BR",
+    "Nome": "Volta do Incolor com Nova Embalagen",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "P",
+    "Status": "🔨 Em Produção",
+    "Notas": "Retorno ao estoque do Bastão Incolor com Nova Embalagem"
   },
   {
     "ID": "20260205-001",
