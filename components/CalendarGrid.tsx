@@ -96,9 +96,9 @@ export function CalendarGrid({
   // Group events by date
   const eventsByDate: Record<string, CalendarEvent[]> = {};
   events.forEach((event) => {
-    const date = new Date(event.Data);
-    if (date.getMonth() + 1 === selectedMonth) {
-      const day = date.getDate();
+    // Parse date string as YYYY-MM-DD without timezone conversion
+    const [year, month, day] = event.Data.split("-").map(Number);
+    if (month === selectedMonth) {
       if (!eventsByDate[day]) {
         eventsByDate[day] = [];
       }

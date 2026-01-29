@@ -49,17 +49,13 @@ try:
 
     # Converter coluna Data para formato YYYY-MM-DD (sem timestamp)
     if "Data" in df.columns:
-        # Se for datetime, converte para date apenas
-        if pd.api.types.is_datetime64_any_dtype(df["Data"]):
-            df["Data"] = pd.to_datetime(df["Data"]).dt.date.astype(str)
-        else:
-            # Se for string, garante formato correto
-            df["Data"] = pd.to_datetime(df["Data"], errors="coerce").dt.date.astype(str)
+        # Usar strftime para garantir formato correto sem timezone
+        df["Data"] = pd.to_datetime(df["Data"], errors="coerce").dt.strftime("%Y-%m-%d")
 
     # Converter outros datetime para string
     for col in df.columns:
         if col != "Data" and pd.api.types.is_datetime64_any_dtype(df[col]):
-            df[col] = df[col].astype(str).replace("NaT", "")
+            df[col] = pd.to_datetime(df[col]).dt.strftime("%Y-%m-%d").replace("NaT", "")
 
     df = df.fillna("")
 

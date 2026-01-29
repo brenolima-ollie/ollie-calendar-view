@@ -64,8 +64,8 @@ export function EventsList({ events }: EventsListProps) {
   // Group events by month
   const eventsByMonth: Record<number, CalendarEvent[]> = {};
   events.forEach((event) => {
-    const date = new Date(event.Data);
-    const month = date.getMonth() + 1;
+    // Parse date string as YYYY-MM-DD without timezone conversion
+    const [year, month, day] = event.Data.split("-").map(Number);
     if (!eventsByMonth[month]) {
       eventsByMonth[month] = [];
     }
@@ -74,9 +74,10 @@ export function EventsList({ events }: EventsListProps) {
 
   // Sort events within each month by date
   Object.keys(eventsByMonth).forEach((month) => {
-    eventsByMonth[Number(month)].sort(
-      (a, b) => new Date(a.Data).getTime() - new Date(b.Data).getTime(),
-    );
+    eventsByMonth[Number(month)].sort((a, b) => {
+      // Compare dates as strings (YYYY-MM-DD format sorts correctly)
+      return a.Data.localeCompare(b.Data);
+    });
   });
 
   return (
@@ -98,7 +99,8 @@ export function EventsList({ events }: EventsListProps) {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {monthEvents.map((event) => {
-                const date = new Date(event.Data);
+                // Parse date string as YYYY-MM-DD without timezone conversion
+                const [year, month, day] = event.Data.split("-").map(Number);
                 const isCritical =
                   event.Status.includes("🔴") || event.Status.includes("⚠️");
 
@@ -169,11 +171,14 @@ export function EventsList({ events }: EventsListProps) {
                       <div className="flex items-center gap-2">
                         <span className="font-medium">Data:</span>
                         <span>
-                          {date.toLocaleDateString("pt-BR", {
-                            day: "2-digit",
-                            month: "long",
-                            year: "numeric",
-                          })}
+                          {new Date(year, month - 1, day).toLocaleDateString(
+                            "pt-BR",
+                            {
+                              day: "2-digit",
+                              month: "long",
+                              year: "numeric",
+                            },
+                          )}
                         </span>
                       </div>
                       {event.Esforço && (
