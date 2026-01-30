@@ -16,7 +16,7 @@
     "Nome": "Novas cores 3 em 1",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "🔨 Em Produção",
+    "Status": "✅ Concluído",
     "Notas": "Kit Surpresa lançamento 23/01"
   },
   {
@@ -43,10 +43,10 @@
     "ID": "20260202-001",
     "Data": "2026-02-02",
     "Operação": "Noma BR",
-    "Nome": "",
-    "Tipo": "",
-    "Esforço": "",
-    "Status": "",
+    "Nome": "Kit Miniaturas",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "P",
+    "Status": "🔨 Em Produção",
     "Notas": ""
   },
   {
