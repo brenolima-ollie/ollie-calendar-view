@@ -40,6 +40,26 @@
     "Notas": "Retorno ao estoque do Bastão Incolor com Nova Embalagem"
   },
   {
+    "ID": "20260202-001",
+    "Data": "2026-02-02",
+    "Operação": "Noma BR",
+    "Nome": "",
+    "Tipo": "",
+    "Esforço": "",
+    "Status": "",
+    "Notas": ""
+  },
+  {
+    "ID": "20260130-002",
+    "Data": "2026-01-30",
+    "Operação": "Noma BR",
+    "Nome": "Kit Mini Body Splash Iluminador",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "P",
+    "Status": "✅ Concluído",
+    "Notas": ""
+  },
+  {
     "ID": "20260205-001",
     "Data": "2026-02-05",
     "Operação": "Ollie BR",
