@@ -26,7 +26,7 @@
     "Nome": "Novos produtos skincare",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "🔨 Em Produção",
+    "Status": "✅ Concluído",
     "Notas": "Hidratante e Espuma com ácido salicílico (voltado para peles com acne)"
   },
   {
@@ -36,7 +36,7 @@
     "Nome": "Volta do Incolor com Nova Embalagen",
     "Tipo": "Lançamento Produto",
     "Esforço": "P",
-    "Status": "🔨 Em Produção",
+    "Status": "✅ Concluído",
     "Notas": "Retorno ao estoque do Bastão Incolor com Nova Embalagem"
   },
   {
@@ -46,7 +46,7 @@
     "Nome": "Kit Miniaturas",
     "Tipo": "Lançamento Produto",
     "Esforço": "P",
-    "Status": "🔨 Em Produção",
+    "Status": "✅ Concluído",
     "Notas": ""
   },
   {
@@ -66,7 +66,7 @@
     "Nome": "Live Shop - Site",
     "Tipo": "Campanha",
     "Esforço": "G",
-    "Status": "🔨 Em Produção",
+    "Status": "✅ Concluído",
     "Notas": ""
   },
   {
@@ -120,8 +120,8 @@
     "Notas": "Para áreas maiores"
   },
   {
-    "ID": "20260215-004",
-    "Data": "2026-02-15",
+    "ID": "20260327-001",
+    "Data": "2026-03-27",
     "Operação": "Ollie CO",
     "Nome": "Creme de Mãos",
     "Tipo": "Lançamento Produto",
@@ -130,7 +130,7 @@
     "Notas": "Colômbia"
   },
   {
-    "ID": "20260215-005",
+    "ID": "20260215-004",
     "Data": "2026-02-15",
     "Operação": "Ollie CO",
     "Nome": "Mineral",
@@ -140,18 +140,18 @@
     "Notas": "Colômbia"
   },
   {
-    "ID": "20260215-006",
-    "Data": "2026-02-15",
+    "ID": "20260204-001",
+    "Data": "2026-02-04",
     "Operação": "Ollie MX",
     "Nome": "Mineral",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "⏳ Planejado",
+    "Status": "✅ Concluído",
     "Notas": "México"
   },
   {
-    "ID": "20260215-007",
-    "Data": "2026-02-15",
+    "ID": "20260302-001",
+    "Data": "2026-03-02",
     "Operação": "Ollie MX",
     "Nome": "Hidratante Corporal",
     "Tipo": "Lançamento Produto",
@@ -160,7 +160,7 @@
     "Notas": "México"
   },
   {
-    "ID": "20260215-008",
+    "ID": "20260215-005",
     "Data": "2026-02-15",
     "Operação": "Ollie MX",
     "Nome": "Incolor",
@@ -173,7 +173,7 @@
     "ID": "20260301-001",
     "Data": "2026-03-01",
     "Operação": "Ollie CO",
-    "Nome": "Hidratante Corporal e Incolor",
+    "Nome": "Hidratante Corporal",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "🔨 Em Produção",
@@ -240,14 +240,14 @@
     "Notas": "Europa"
   },
   {
-    "ID": "20260315-006",
-    "Data": "2026-03-15",
-    "Operação": "Ollie MX",
+    "ID": "20260318-001",
+    "Data": "2026-03-18",
+    "Operação": "Ollie CO",
     "Nome": "Hot Sale",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
-    "Notas": "México - Data TBD"
+    "Notas": "March 18th-20th and we can extend until the 22nd"
   },
   {
     "ID": "20260330-001",
@@ -303,7 +303,7 @@
     "ID": "20260415-004",
     "Data": "2026-04-15",
     "Operação": "Ollie MX",
-    "Nome": "Ollie MX - Creme de Olhos",
+    "Nome": "Creme de Olhos",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -313,7 +313,7 @@
     "ID": "20260415-005",
     "Data": "2026-04-15",
     "Operação": "Ollie EU",
-    "Nome": "Ollie EU - Creme de Olhos",
+    "Nome": "Creme de Olhos",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
