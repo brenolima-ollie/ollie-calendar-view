@@ -10,16 +10,6 @@
     "Notas": "Produto lançado dia 26/01/26"
   },
   {
-    "ID": "20260130-001",
-    "Data": "2026-01-30",
-    "Operação": "Ollie BR",
-    "Nome": "Novas cores 3 em 1",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "✅ Concluído",
-    "Notas": "Kit Surpresa lançamento 23/01"
-  },
-  {
     "ID": "20260127-001",
     "Data": "2026-01-27",
     "Operação": "Joomi BR",
@@ -30,14 +20,24 @@
     "Notas": "Hidratante e Espuma com ácido salicílico (voltado para peles com acne)"
   },
   {
-    "ID": "20260203-001",
-    "Data": "2026-02-03",
+    "ID": "20260130-001",
+    "Data": "2026-01-30",
     "Operação": "Ollie BR",
-    "Nome": "Volta do Incolor com Nova Embalagen",
+    "Nome": "Novas cores 3 em 1",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "✅ Concluído",
+    "Notas": "Kit Surpresa lançamento 23/01"
+  },
+  {
+    "ID": "20260130-002",
+    "Data": "2026-01-30",
+    "Operação": "Noma BR",
+    "Nome": "Kit Mini Body Splash Iluminador",
     "Tipo": "Lançamento Produto",
     "Esforço": "P",
     "Status": "✅ Concluído",
-    "Notas": "Retorno ao estoque do Bastão Incolor com Nova Embalagem"
+    "Notas": ""
   },
   {
     "ID": "20260202-001",
@@ -50,14 +50,24 @@
     "Notas": ""
   },
   {
-    "ID": "20260130-002",
-    "Data": "2026-01-30",
-    "Operação": "Noma BR",
-    "Nome": "Kit Mini Body Splash Iluminador",
+    "ID": "20260203-001",
+    "Data": "2026-02-03",
+    "Operação": "Ollie BR",
+    "Nome": "Volta do Incolor com Nova Embalagen",
     "Tipo": "Lançamento Produto",
     "Esforço": "P",
     "Status": "✅ Concluído",
-    "Notas": ""
+    "Notas": "Retorno ao estoque do Bastão Incolor com Nova Embalagem"
+  },
+  {
+    "ID": "20260204-001",
+    "Data": "2026-02-04",
+    "Operação": "Ollie MX",
+    "Nome": "Mineral",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "✅ Concluído",
+    "Notas": "México"
   },
   {
     "ID": "20260205-001",
@@ -76,28 +86,8 @@
     "Nome": "Temporada de Ski",
     "Tipo": "Campanha",
     "Esforço": "P",
-    "Status": "⏳ Planejado",
+    "Status": "❌ Cancelado",
     "Notas": "LP similar à home, com banner, videos e reviews remetendo a Ski"
-  },
-  {
-    "ID": "20260302-001",
-    "Data": "2026-03-02",
-    "Operação": "Ollie BR",
-    "Nome": "Semana do Consumidor",
-    "Tipo": "Campanha",
-    "Esforço": "G",
-    "Status": "🔨 Em Produção",
-    "Notas": "3 LPs + Kits"
-  },
-  {
-    "ID": "20260316-001",
-    "Data": "2026-03-16",
-    "Operação": "Ollie BR",
-    "Nome": "Leave-in",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "Brasil"
   },
   {
     "ID": "20260215-002",
@@ -120,16 +110,6 @@
     "Notas": "Para áreas maiores"
   },
   {
-    "ID": "20260327-001",
-    "Data": "2026-03-27",
-    "Operação": "Ollie CO",
-    "Nome": "Creme de Mãos",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "🔨 Em Produção",
-    "Notas": "Colômbia"
-  },
-  {
     "ID": "20260215-004",
     "Data": "2026-02-15",
     "Operação": "Ollie CO",
@@ -140,14 +120,14 @@
     "Notas": "Colômbia"
   },
   {
-    "ID": "20260204-001",
-    "Data": "2026-02-04",
-    "Operação": "Ollie MX",
-    "Nome": "Mineral",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "✅ Concluído",
-    "Notas": "México"
+    "ID": "20260302-001",
+    "Data": "2026-03-02",
+    "Operação": "Ollie BR",
+    "Nome": "Semana do Consumidor",
+    "Tipo": "Campanha",
+    "Esforço": "G",
+    "Status": "🔨 Em Produção",
+    "Notas": "3 LPs + Kits"
   },
   {
     "ID": "20260302-002",
@@ -160,18 +140,8 @@
     "Notas": "México"
   },
   {
-    "ID": "20260215-005",
-    "Data": "2026-02-15",
-    "Operação": "Ollie MX",
-    "Nome": "Incolor",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "México"
-  },
-  {
-    "ID": "20260301-001",
-    "Data": "2026-03-01",
+    "ID": "20260302-003",
+    "Data": "2026-03-02",
     "Operação": "Ollie CO",
     "Nome": "Hidratante Corporal",
     "Tipo": "Lançamento Produto",
@@ -180,37 +150,27 @@
     "Notas": "Colômbia"
   },
   {
-    "ID": "20260301-002",
-    "Data": "2026-03-01",
+    "ID": "20260315-001",
+    "Data": "2026-03-15",
+    "Operação": "Ollie MX",
+    "Nome": "Incolor",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "México"
+  },
+  {
+    "ID": "20260315-002",
+    "Data": "2026-03-15",
     "Operação": "Ollie CO",
     "Nome": "Incolor",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "🔨 Em Produção",
+    "Status": "⏳ Planejado",
     "Notas": "Colômbia"
   },
   {
-    "ID": "20260315-001",
-    "Data": "2026-03-15",
-    "Operação": "Ollie UK",
-    "Nome": "Lançamento Operação Ollie UK",
-    "Tipo": "Lançamento Operação",
-    "Esforço": "G",
-    "Status": "⏳ Planejado",
-    "Notas": "E-commerce - Mercado: $721M, CAGR 7% - Amazon, TikTok Shop"
-  },
-  {
-    "ID": "20260410-001",
-    "Data": "2026-04-10",
-    "Operação": "Ollie CL",
-    "Nome": "Lançamento Operação Ollie Chile",
-    "Tipo": "Lançamento Operação",
-    "Esforço": "G",
-    "Status": "🔨 Em Produção",
-    "Notas": "E-commerce - Mercado: $64M, CAGR 11% - Meli, Falabella, Amazon"
-  },
-  {
-    "ID": "20260315-002",
+    "ID": "20260315-003",
     "Data": "2026-03-15",
     "Operação": "Noma BR",
     "Nome": "Mini Body Splash",
@@ -220,7 +180,7 @@
     "Notas": ""
   },
   {
-    "ID": "20260315-003",
+    "ID": "20260315-004",
     "Data": "2026-03-15",
     "Operação": "Ollie MX",
     "Nome": "Novos tons 3 em 1",
@@ -230,24 +190,34 @@
     "Notas": "México"
   },
   {
-    "ID": "20260315-004",
-    "Data": "2026-03-15",
-    "Operação": "Ollie EU",
-    "Nome": "Novos tons 3 em 1",
+    "ID": "20260316-001",
+    "Data": "2026-03-16",
+    "Operação": "Ollie BR",
+    "Nome": "Leave-in",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
-    "Notas": "Europa"
+    "Notas": "Brasil"
   },
   {
-    "ID": "20260318-001",
-    "Data": "2026-03-18",
+    "ID": "20260316-002",
+    "Data": "2026-03-16",
     "Operação": "Ollie CO",
     "Nome": "Hot Sale",
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
     "Notas": "March 18th-20th and we can extend until the 22nd"
+  },
+  {
+    "ID": "20260327-001",
+    "Data": "2026-03-27",
+    "Operação": "Ollie CO",
+    "Nome": "Creme de Mãos",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "🔨 Em Produção",
+    "Notas": "Colômbia"
   },
   {
     "ID": "20260330-001",
@@ -260,6 +230,16 @@
     "Notas": "México - 30/03 a 12/04"
   },
   {
+    "ID": "20260331-001",
+    "Data": "2026-03-31",
+    "Operação": "Ollie UK",
+    "Nome": "Lançamento Operação Ollie UK",
+    "Tipo": "Lançamento Operação",
+    "Esforço": "G",
+    "Status": "⏳ Planejado",
+    "Notas": "E-commerce - Mercado: $721M, CAGR 7% - Amazon, TikTok Shop"
+  },
+  {
     "ID": "20260405-001",
     "Data": "2026-04-05",
     "Operação": "Ollie EU",
@@ -270,17 +250,27 @@
     "Notas": "Europa"
   },
   {
-    "ID": "20260522-001",
-    "Data": "2026-05-22",
-    "Operação": "Ollie BR",
-    "Nome": "Lançamento Corretivo",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "Brasil"
+    "ID": "20260410-001",
+    "Data": "2026-04-10",
+    "Operação": "Ollie CL",
+    "Nome": "Lançamento Operação Ollie Chile",
+    "Tipo": "Lançamento Operação",
+    "Esforço": "G",
+    "Status": "🔨 Em Produção",
+    "Notas": "E-commerce - Mercado: $64M, CAGR 11% - Meli, Falabella, Amazon"
   },
   {
     "ID": "20260415-001",
+    "Data": "2026-04-15",
+    "Operação": "Ollie EU",
+    "Nome": "Novos tons 3 em 1",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "Europa"
+  },
+  {
+    "ID": "20260415-002",
     "Data": "2026-04-15",
     "Operação": "Noma BR",
     "Nome": "Noma - Iluminador",
@@ -290,7 +280,7 @@
     "Notas": ""
   },
   {
-    "ID": "20260415-002",
+    "ID": "20260415-003",
     "Data": "2026-04-15",
     "Operação": "Ollie CO",
     "Nome": "Ollie CO - Novos tons 3 em 1 + Creme de Olhos",
@@ -300,7 +290,7 @@
     "Notas": "Colômbia"
   },
   {
-    "ID": "20260415-003",
+    "ID": "20260415-004",
     "Data": "2026-04-15",
     "Operação": "Ollie MX",
     "Nome": "Creme de Olhos",
@@ -310,7 +300,7 @@
     "Notas": "México"
   },
   {
-    "ID": "20260415-004",
+    "ID": "20260415-005",
     "Data": "2026-04-15",
     "Operação": "Ollie EU",
     "Nome": "Creme de Olhos",
@@ -320,7 +310,7 @@
     "Notas": "Europa"
   },
   {
-    "ID": "20260415-005",
+    "ID": "20260415-006",
     "Data": "2026-04-15",
     "Operação": "Ollie EU",
     "Nome": "Verão Europa - Início",
@@ -430,6 +420,16 @@
     "Notas": "México"
   },
   {
+    "ID": "20260522-001",
+    "Data": "2026-05-22",
+    "Operação": "Ollie BR",
+    "Nome": "Lançamento Corretivo",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "Brasil"
+  },
+  {
     "ID": "20260525-001",
     "Data": "2026-05-25",
     "Operação": "Ollie MX",
@@ -498,6 +498,16 @@
     "Esforço": "M",
     "Status": "⏳ Planejado",
     "Notas": "México - Junho a Agosto"
+  },
+  {
+    "ID": "20260620-001",
+    "Data": "2026-06-20",
+    "Operação": "Ollie MX",
+    "Nome": "Ollie MX - Creme de mãos",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "P",
+    "Status": "⏳ Planejado",
+    "Notas": "Data TBD - México"
   },
   {
     "ID": "20260701-001",
@@ -798,15 +808,5 @@
     "Esforço": "M",
     "Status": "⏳ Planejado",
     "Notas": "Data TBD"
-  },
-  {
-    "ID": "20260620-001",
-    "Data": "2026-06-20",
-    "Operação": "Ollie MX",
-    "Nome": "Ollie MX - Creme de mãos",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "P",
-    "Status": "⏳ Planejado",
-    "Notas": "Data TBD - México"
   }
 ]
