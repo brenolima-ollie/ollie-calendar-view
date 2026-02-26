@@ -210,6 +210,16 @@
     "Notas": "March 18th-20th and we can extend until the 22nd"
   },
   {
+    "ID": "20260323-001",
+    "Data": "2026-03-23",
+    "Operação": "Ollie UK",
+    "Nome": "Lançamento Operação Ollie UK",
+    "Tipo": "Lançamento Operação",
+    "Esforço": "G",
+    "Status": "⏳ Planejado",
+    "Notas": "E-commerce - Mercado: $721M, CAGR 7% - Amazon, TikTok Shop"
+  },
+  {
     "ID": "20260327-001",
     "Data": "2026-03-27",
     "Operação": "Ollie CO",
@@ -228,16 +238,6 @@
     "Esforço": "M",
     "Status": "⏳ Planejado",
     "Notas": "México - 30/03 a 12/04"
-  },
-  {
-    "ID": "20260331-001",
-    "Data": "2026-03-31",
-    "Operação": "Ollie UK",
-    "Nome": "Lançamento Operação Ollie UK",
-    "Tipo": "Lançamento Operação",
-    "Esforço": "G",
-    "Status": "⏳ Planejado",
-    "Notas": "E-commerce - Mercado: $721M, CAGR 7% - Amazon, TikTok Shop"
   },
   {
     "ID": "20260405-001",
