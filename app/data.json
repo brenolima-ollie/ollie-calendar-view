@@ -96,7 +96,7 @@
     "Nome": "Estojo com estrelas pretas",
     "Tipo": "Lançamento Produto",
     "Esforço": "P",
-    "Status": "⏳ Planejado",
+    "Status": "✅ Concluído",
     "Notas": ""
   },
   {
@@ -106,7 +106,7 @@
     "Nome": "Adesivo oval",
     "Tipo": "Lançamento Produto",
     "Esforço": "P",
-    "Status": "⏳ Planejado",
+    "Status": "✅ Concluído",
     "Notas": "Para áreas maiores"
   },
   {
@@ -116,7 +116,7 @@
     "Nome": "Mineral",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "⏳ Planejado",
+    "Status": "✅ Concluído",
     "Notas": "Colômbia"
   },
   {
@@ -126,7 +126,7 @@
     "Nome": "Semana do Consumidor",
     "Tipo": "Campanha",
     "Esforço": "G",
-    "Status": "🔨 Em Produção",
+    "Status": "✅ Concluído",
     "Notas": "3 LPs + Kits"
   },
   {
@@ -136,7 +136,7 @@
     "Nome": "Hidratante Corporal",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "🔨 Em Produção",
+    "Status": "✅ Concluído",
     "Notas": "México"
   },
   {
@@ -146,78 +146,38 @@
     "Nome": "Hidratante Corporal",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "🔨 Em Produção",
+    "Status": "✅ Concluído",
     "Notas": "Colômbia"
   },
   {
     "ID": "20260315-001",
     "Data": "2026-03-15",
-    "Operação": "Ollie MX",
-    "Nome": "Incolor",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "México"
-  },
-  {
-    "ID": "20260315-002",
-    "Data": "2026-03-15",
-    "Operação": "Ollie CO",
-    "Nome": "Incolor",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "Colômbia"
-  },
-  {
-    "ID": "20260315-003",
-    "Data": "2026-03-15",
     "Operação": "Noma BR",
     "Nome": "Mini Body Splash",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "⏳ Planejado",
+    "Status": "✅ Concluído",
     "Notas": ""
   },
   {
-    "ID": "20260315-004",
+    "ID": "20260315-002",
     "Data": "2026-03-15",
     "Operação": "Ollie MX",
     "Nome": "Novos tons 3 em 1",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "⏳ Planejado",
+    "Status": "✅ Concluído",
     "Notas": "México"
   },
   {
     "ID": "20260316-001",
     "Data": "2026-03-16",
-    "Operação": "Ollie BR",
-    "Nome": "Leave-in",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "Brasil"
-  },
-  {
-    "ID": "20260316-002",
-    "Data": "2026-03-16",
     "Operação": "Ollie CO",
     "Nome": "Hot Sale",
     "Tipo": "Data Comercial",
     "Esforço": "M",
-    "Status": "⏳ Planejado",
+    "Status": "✅ Concluído",
     "Notas": "March 18th-20th and we can extend until the 22nd"
-  },
-  {
-    "ID": "20260323-001",
-    "Data": "2026-03-23",
-    "Operação": "Ollie UK",
-    "Nome": "Lançamento Operação Ollie UK",
-    "Tipo": "Lançamento Operação",
-    "Esforço": "G",
-    "Status": "⏳ Planejado",
-    "Notas": "E-commerce - Mercado: $721M, CAGR 7% - Amazon, TikTok Shop"
   },
   {
     "ID": "20260327-001",
@@ -248,6 +208,36 @@
     "Esforço": "M",
     "Status": "⏳ Planejado",
     "Notas": "Europa"
+  },
+  {
+    "ID": "20260406-001",
+    "Data": "2026-04-06",
+    "Operação": "Ollie MX",
+    "Nome": "Volta do Incolor - Nova embalagem",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "México"
+  },
+  {
+    "ID": "20260406-002",
+    "Data": "2026-04-06",
+    "Operação": "Ollie CO",
+    "Nome": "Volta do Incolor - Nova embalagem",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "Colômbia"
+  },
+  {
+    "ID": "20260406-003",
+    "Data": "2026-04-06",
+    "Operação": "Ollie BR",
+    "Nome": "Leave-in",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "Brasil"
   },
   {
     "ID": "20260410-001",
@@ -328,6 +318,16 @@
     "Esforço": "P",
     "Status": "⏳ Planejado",
     "Notas": "México"
+  },
+  {
+    "ID": "20260504-001",
+    "Data": "2026-05-04",
+    "Operação": "Ollie UK",
+    "Nome": "Lançamento Operação Ollie UK",
+    "Tipo": "Lançamento Operação",
+    "Esforço": "G",
+    "Status": "⏳ Planejado",
+    "Notas": "E-commerce - Mercado: $721M, CAGR 7% - Amazon, TikTok Shop"
   },
   {
     "ID": "20260510-001",
