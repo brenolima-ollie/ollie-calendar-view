@@ -195,7 +195,7 @@
     "Operação": "Ollie MX",
     "Nome": "Holy Week",
     "Tipo": "Data Comercial",
-    "Esforço": "M",
+    "Esforço": "P",
     "Status": "❌ Cancelado",
     "Notas": "Sem ação comercial direcionada"
   },
@@ -212,55 +212,15 @@
   {
     "ID": "20260415-001",
     "Data": "2026-04-15",
-    "Operação": "Ollie EU",
-    "Nome": "Novos tons 3 em 1",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "Europa"
-  },
-  {
-    "ID": "20260415-002",
-    "Data": "2026-04-15",
     "Operação": "Noma BR",
     "Nome": "Noma - Iluminador",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
-    "Notas": ""
+    "Notas": "Noma"
   },
   {
-    "ID": "20260415-003",
-    "Data": "2026-04-15",
-    "Operação": "Ollie CO",
-    "Nome": "Ollie CO - Novos tons 3 em 1 + Creme de Olhos",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "Colômbia"
-  },
-  {
-    "ID": "20260415-004",
-    "Data": "2026-04-15",
-    "Operação": "Ollie MX",
-    "Nome": "Creme de Olhos",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "México"
-  },
-  {
-    "ID": "20260415-005",
-    "Data": "2026-04-15",
-    "Operação": "Ollie EU",
-    "Nome": "Creme de Olhos",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "Europa"
-  },
-  {
-    "ID": "20260415-006",
+    "ID": "20260415-002",
     "Data": "2026-04-15",
     "Operação": "Ollie EU",
     "Nome": "Verão Europa - Início",
@@ -307,10 +267,30 @@
     "Tipo": "Data Comercial",
     "Esforço": "M",
     "Status": "⏳ Planejado",
-    "Notas": "CO, MX"
+    "Notas": "BR, CO, MX?"
   },
   {
     "ID": "20260511-001",
+    "Data": "2026-05-11",
+    "Operação": "Ollie EU",
+    "Nome": "Novas cores 3 em 1",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "Europa"
+  },
+  {
+    "ID": "20260511-002",
+    "Data": "2026-05-11",
+    "Operação": "Ollie CO",
+    "Nome": "Novas cores 3 em 1",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "Colômbia"
+  },
+  {
+    "ID": "20260511-003",
     "Data": "2026-05-11",
     "Operação": "Ollie UK",
     "Nome": "Lançamento Operação Ollie UK",
@@ -320,7 +300,7 @@
     "Notas": "Data Estimada"
   },
   {
-    "ID": "20260511-002",
+    "ID": "20260511-004",
     "Data": "2026-05-11",
     "Operação": "Ollie CL",
     "Nome": "Lançamento Operação Ollie Chile",
@@ -337,20 +317,10 @@
     "Tipo": "Lançamento Marca",
     "Esforço": "G",
     "Status": "⏳ Planejado",
-    "Notas": "Haircare - Reparação capilar profissional com ácido hialurônico e ReparAge"
+    "Notas": "Data Estimada - Haircare - Reparação capilar profissional com ácido hialurônico e ReparAge"
   },
   {
     "ID": "20260515-002",
-    "Data": "2026-05-15",
-    "Operação": "Ollie BR",
-    "Nome": "Ollie BR - Novas cores Com Cor",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "Brasil"
-  },
-  {
-    "ID": "20260515-003",
     "Data": "2026-05-15",
     "Operação": "Noma BR",
     "Nome": "Noma - Hair Mist",
@@ -360,7 +330,7 @@
     "Notas": "Mesmas fragrâncias dos body splashes"
   },
   {
-    "ID": "20260515-004",
+    "ID": "20260515-003",
     "Data": "2026-05-15",
     "Operação": "Joomi BR",
     "Nome": "Joomi - Esfoliante com carvão ativado",
@@ -370,7 +340,7 @@
     "Notas": ""
   },
   {
-    "ID": "20260515-005",
+    "ID": "20260515-004",
     "Data": "2026-05-15",
     "Operação": "Joomi BR",
     "Nome": "Joomi - Gel secativo para espinhas",
@@ -380,7 +350,7 @@
     "Notas": ""
   },
   {
-    "ID": "20260515-006",
+    "ID": "20260515-005",
     "Data": "2026-05-15",
     "Operação": "Joomi BR",
     "Nome": "Joomi - Ácido glicólico para manchas",
@@ -390,20 +360,20 @@
     "Notas": ""
   },
   {
-    "ID": "20260515-007",
-    "Data": "2026-05-15",
+    "ID": "20260518-001",
+    "Data": "2026-05-18",
     "Operação": "Ollie CO",
-    "Nome": "Ollie CO - Glow Facial",
+    "Nome": "Glow Facial",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
     "Notas": "Colômbia"
   },
   {
-    "ID": "20260515-008",
-    "Data": "2026-05-15",
+    "ID": "20260518-002",
+    "Data": "2026-05-18",
     "Operação": "Ollie MX",
-    "Nome": "Ollie MX - Glow Facial",
+    "Nome": "Glow Facial",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
     "Status": "⏳ Planejado",
@@ -430,27 +400,47 @@
     "Notas": "México - 25/05 a 02/06"
   },
   {
+    "ID": "20260601-001",
+    "Data": "2026-06-01",
+    "Operação": "Ollie BR",
+    "Nome": "Novas cores Bastão Com Cor",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "Brasil"
+  },
+  {
+    "ID": "20260601-002",
+    "Data": "2026-06-01",
+    "Operação": "Ollie CO",
+    "Nome": "Creme de Olhos",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "Colômbia"
+  },
+  {
+    "ID": "20260601-003",
+    "Data": "2026-06-01",
+    "Operação": "Ollie MX",
+    "Nome": "Creme de Olhos",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "México"
+  },
+  {
+    "ID": "20260601-004",
+    "Data": "2026-06-01",
+    "Operação": "Ollie EU",
+    "Nome": "Creme de Olhos",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "Europa"
+  },
+  {
     "ID": "20260615-001",
-    "Data": "2026-06-15",
-    "Operação": "Ollie PE",
-    "Nome": "Lançamento Ollie Peru",
-    "Tipo": "Lançamento Operação",
-    "Esforço": "G",
-    "Status": "⏳ Planejado",
-    "Notas": "E-commerce - Mercado: $56M, CAGR 8% - Meli, Falabella, Ripley, Aruma"
-  },
-  {
-    "ID": "20260615-002",
-    "Data": "2026-06-15",
-    "Operação": "Ollie AE",
-    "Nome": "Lançamento Ollie UAE",
-    "Tipo": "Lançamento Operação",
-    "Esforço": "G",
-    "Status": "⏳ Planejado",
-    "Notas": "E-commerce - Mercado: $73M, CAGR 10% - Amazon, Noon, Namshi (Inglês e Árabe)"
-  },
-  {
-    "ID": "20260615-003",
     "Data": "2026-06-15",
     "Operação": "Minibar",
     "Nome": "Lançamento Marca Minibar",
@@ -460,7 +450,7 @@
     "Notas": "Body care divertido - drinks para a pele (Espuma de banho - Esfoliante - Hidratante - Body mist)"
   },
   {
-    "ID": "20260615-004",
+    "ID": "20260615-002",
     "Data": "2026-06-15",
     "Operação": "Noma BR",
     "Nome": "Noma - Bastões",
@@ -470,7 +460,7 @@
     "Notas": "Antioleosidade, Antifrizz, Antiatrito"
   },
   {
-    "ID": "20260615-005",
+    "ID": "20260615-003",
     "Data": "2026-06-15",
     "Operação": "Todos",
     "Nome": "2026 FIFA World Cup",
@@ -480,7 +470,7 @@
     "Notas": "México - Data TBD"
   },
   {
-    "ID": "20260615-006",
+    "ID": "20260615-004",
     "Data": "2026-06-15",
     "Operação": "Ollie MX",
     "Nome": "Summer peak season - Início",
@@ -493,7 +483,7 @@
     "ID": "20260620-001",
     "Data": "2026-06-20",
     "Operação": "Ollie MX",
-    "Nome": "Ollie MX - Creme de mãos",
+    "Nome": "Creme de mãos",
     "Tipo": "Lançamento Produto",
     "Esforço": "P",
     "Status": "⏳ Planejado",
@@ -548,6 +538,26 @@
     "Esforço": "M",
     "Status": "⏳ Planejado",
     "Notas": ""
+  },
+  {
+    "ID": "20260801-001",
+    "Data": "2026-08-01",
+    "Operação": "Ollie PE",
+    "Nome": "Lançamento Ollie Peru",
+    "Tipo": "Lançamento Operação",
+    "Esforço": "G",
+    "Status": "⏳ Planejado",
+    "Notas": "E-commerce - Mercado: $56M, CAGR 8% - Meli, Falabella, Ripley, Aruma"
+  },
+  {
+    "ID": "20260801-002",
+    "Data": "2026-08-01",
+    "Operação": "Ollie AE",
+    "Nome": "Lançamento Ollie UAE",
+    "Tipo": "Lançamento Operação",
+    "Esforço": "G",
+    "Status": "⏳ Planejado",
+    "Notas": "E-commerce - Mercado: $73M, CAGR 10% - Amazon, Noon, Namshi (Inglês e Árabe)"
   },
   {
     "ID": "20260815-001",
