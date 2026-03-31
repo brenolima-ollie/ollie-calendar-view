@@ -186,7 +186,7 @@
     "Nome": "Creme de Mãos",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "🔨 Em Produção",
+    "Status": "✅ Concluído",
     "Notas": "Colômbia"
   },
   {
@@ -196,58 +196,18 @@
     "Nome": "Holy Week",
     "Tipo": "Data Comercial",
     "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "México - 30/03 a 12/04"
-  },
-  {
-    "ID": "20260405-001",
-    "Data": "2026-04-05",
-    "Operação": "Ollie EU",
-    "Nome": "Páscoa",
-    "Tipo": "Data Comercial",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "Europa"
+    "Status": "❌ Cancelado",
+    "Notas": "Sem ação comercial direcionada"
   },
   {
     "ID": "20260406-001",
-    "Data": "2026-04-06",
-    "Operação": "Ollie MX",
-    "Nome": "Volta do Incolor - Nova embalagem",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "México"
-  },
-  {
-    "ID": "20260406-002",
-    "Data": "2026-04-06",
-    "Operação": "Ollie CO",
-    "Nome": "Volta do Incolor - Nova embalagem",
-    "Tipo": "Lançamento Produto",
-    "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "Colômbia"
-  },
-  {
-    "ID": "20260406-003",
     "Data": "2026-04-06",
     "Operação": "Ollie BR",
     "Nome": "Leave-in",
     "Tipo": "Lançamento Produto",
     "Esforço": "M",
-    "Status": "⏳ Planejado",
-    "Notas": "Brasil"
-  },
-  {
-    "ID": "20260410-001",
-    "Data": "2026-04-10",
-    "Operação": "Ollie CL",
-    "Nome": "Lançamento Operação Ollie Chile",
-    "Tipo": "Lançamento Operação",
-    "Esforço": "G",
     "Status": "🔨 Em Produção",
-    "Notas": "E-commerce - Mercado: $64M, CAGR 11% - Meli, Falabella, Amazon"
+    "Notas": "Brasil"
   },
   {
     "ID": "20260415-001",
@@ -310,6 +270,26 @@
     "Notas": "Peak season - Abril a Agosto"
   },
   {
+    "ID": "20260420-001",
+    "Data": "2026-04-20",
+    "Operação": "Ollie MX",
+    "Nome": "Volta do Incolor - Nova embalagem",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "México - Data Estimada"
+  },
+  {
+    "ID": "20260420-002",
+    "Data": "2026-04-20",
+    "Operação": "Ollie CO",
+    "Nome": "Volta do Incolor - Nova embalagem",
+    "Tipo": "Lançamento Produto",
+    "Esforço": "M",
+    "Status": "⏳ Planejado",
+    "Notas": "Colômbia - Data Estimada"
+  },
+  {
     "ID": "20260430-001",
     "Data": "2026-04-30",
     "Operação": "Ollie MX",
@@ -320,16 +300,6 @@
     "Notas": "México"
   },
   {
-    "ID": "20260504-001",
-    "Data": "2026-05-04",
-    "Operação": "Ollie UK",
-    "Nome": "Lançamento Operação Ollie UK",
-    "Tipo": "Lançamento Operação",
-    "Esforço": "G",
-    "Status": "⏳ Planejado",
-    "Notas": "E-commerce - Mercado: $721M, CAGR 7% - Amazon, TikTok Shop"
-  },
-  {
     "ID": "20260510-001",
     "Data": "2026-05-10",
     "Operação": "Todos",
@@ -338,6 +308,26 @@
     "Esforço": "M",
     "Status": "⏳ Planejado",
     "Notas": "CO, MX"
+  },
+  {
+    "ID": "20260511-001",
+    "Data": "2026-05-11",
+    "Operação": "Ollie UK",
+    "Nome": "Lançamento Operação Ollie UK",
+    "Tipo": "Lançamento Operação",
+    "Esforço": "G",
+    "Status": "🔨 Em Produção",
+    "Notas": "Data Estimada"
+  },
+  {
+    "ID": "20260511-002",
+    "Data": "2026-05-11",
+    "Operação": "Ollie CL",
+    "Nome": "Lançamento Operação Ollie Chile",
+    "Tipo": "Lançamento Operação",
+    "Esforço": "G",
+    "Status": "🔨 Em Produção",
+    "Notas": "Data Estimada"
   },
   {
     "ID": "20260515-001",
